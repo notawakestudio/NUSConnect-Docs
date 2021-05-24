@@ -1,4 +1,5 @@
 ---
+sidebar_position: 8
 title: Timeline 
 ---
 
@@ -75,10 +76,4 @@ title: Timeline
 ### **Second half**
 
 WIP
-## **Progress Log**
 
-Drafting down some thoughts along the way...
-18/5/2021
-- First week of development saw significant changes to our application. Besides the quiz functionality that I was working on, the landing page, dashboard as well as other aspects of the project had great improvements made. Though
-UI is not a focus in our initial phase of development, it was nice to view the application and receive visual feedback from the work that we put in. There were many challenges that we managed to overcome via discussion and experimentation. We were able to decide on the schema of data to be stored and also create a few mock data files to work with. The application was also finally deployed to the cloud and we would be able to see real time updates to it 
-with every PR we merge. I think this week created a great foundation for us to continue to work and improve our product towards final release.
