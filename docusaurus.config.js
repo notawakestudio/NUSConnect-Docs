@@ -1,31 +1,30 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'NUS Connect',
+  tagline: 'Jump in the learning loop today!',
+  url: 'https://notawakestudio.github.io',
+  baseUrl: '/NUSConnect-Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'notawakestudio', // Usually your GitHub org/user name.
+  projectName: 'NUSConnect-Docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'NUS Connect',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'index',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Home',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/notawakestudio/NUSConnect',
           label: 'GitHub',
           position: 'right',
         },
@@ -38,25 +37,25 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Home',
+              to: '/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Publicity',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/watch?v=jXnn7Yx96TU',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Poster',
+              href: 'https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Proposal',
+              href: 'https://docs.google.com/document/d/1gVK1er13XGxM9K4T8hWutoqQm9WUkyBN_oKn4uAAlRk/edit',
             },
           ],
         },
@@ -64,17 +63,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/notawakestudio/NUSConnect',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NUS Connect Docs, NotAwake Studio. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,7 +80,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/notawakestudio/NUSConnect-Docs/blob/master/',
+            routeBasePath: '/'
         },
         blog: {
           showReadingTime: true,
