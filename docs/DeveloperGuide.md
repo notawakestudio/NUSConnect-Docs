@@ -29,19 +29,19 @@ shared with other module students in the wiki.
 
 ## **Tech Stack**
 
-### Front end
+### **Front end**
 
 - Nextjs
 - TypeScript
 - Tailwind CSS
 
-### Back end
+### **Back end**
 
 - firebase
 - Deta base
 - flask
 
-### Test
+### **Test**
 
 - Jest
 - React testing library
@@ -80,40 +80,9 @@ shared with other module students in the wiki.
 
 ---
 
-## **User Stories**
+## **Functionality**
 
-Priorities:
-
-- High (must have): `* * *`
-- Medium (nice to have): `* *`
-- Low (unlikely to have):`*`
-
-| Priority | As a …​        | I want to …​                                                         | So that I can…​                                                      |
-| -------- | -------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| `* * *`  | student        | track my progress throughout the semester                            | meet my module requirements                                          |
-| `* * *`  | student        | visualize my progress                                                | be motivated to work towards completing required tasks               |
-| `* * *`  | student        | have a clear view of weekly tasks to be completed                    | tell what is to be done and what is left                             |
-| `* * *`  | student        | have a level bar to judge my progress                                | feel like I’m improving as the weeks go by                           |
-| `* * *`  | student        | post my opinions on the forum anonymously                            | stop feeling embarrassed to ask “dumb” questions                     |
-| `* * *`  | student        | upvote or like forum posts that are interesting                      | help make them receive more attention                                |
-| `* * *`  | student        | view my upvoted forum posts                                          | easily find and refer to them later                                  |
-| `* * *`  | student        | tag my posts                                                         | have an easier time finding and classifying them                     |
-| `* * *`  | student        | chat with my fellow module mates via forum Q&A                       | learn from others who are also taking the module                     |
-| `* * *`  | student        | do past year quizzes                                                 | get a better understanding of the module                             |
-| `* * *`  | student        | be able to make my own quizzes                                       | share my knowledge with other students and help them learn           |
-| `* * *`  | student        | upvote and like quizzes                                              | receive more attention                                               |
-| `* * *`  | student        | view my upvoted quizzes                                              | easily find and refer to them later                                  |
-| `* * *`  | student        | join telegram groups that are related to the mod                     | view discussions and ask questions                                   |
-| `* * *`  | student        | have all relevant information about a module within a single webpage | immediately navigate to it                                           |
-| `* * *`  | student        | contribute online resources that I found to related to module topics | let others benefit from them                                         |
-| `* * *`  | student        | write guides and articles                                            | let them serve as references to myself and my fellow module students |
-| `* * *`  | student        | gamify the process of learning                                       | make doing module related work more fun                              |
-| `* * *`  | student        | contribute to the success of the module                              | future students taking this module can learn better                  |
-| `* *`    | teaching staff | be able to monitor the progress of my students                       | meet my module requirements                                          |
-| `* *`    | teaching staff | create quizzes for students to attempt                               | test easily misunderstood concepts                                   |
-| `* *`    | teaching staff | provide feedback to students for their attempted exercises           | clarify any doubts on the spot                                       |
-
-## **Quiz**
+### **Quiz Page**
 
 There are essentially two pieces of data involved in the quiz functionality.
 
@@ -152,7 +121,7 @@ different modes when interacting with the quiz. User is either taking a quiz or
 reviewing a quiz. The UI should be kept mostly the same, except for the ability
 to interact with the quiz.
 
-#### Quesion
+#### Question
 
 A question is make up of
 
@@ -230,9 +199,9 @@ Extensions:
     2a3. User navigate to another question
 ```
 
-## **Forum**
+### **Forum Page**
 
-### **Posts**
+#### **Post**
 
 Below is the example data for a single post. Some notable items in this are the
 `id` which is randomly generated by
@@ -264,7 +233,7 @@ accesses to all the data that might be needed.
 
 ```
 
-## Login and Authentication
+### **Login and Authentication**
 
 Login is done with [next-auth](https://next-auth.js.org). To check if someone is
 signed in, the useSession() hook is implemented and to save the state between
@@ -274,7 +243,7 @@ the website. All traffic is secure as it uses cross site request forgery tokens
 on sign in and sign out. More info on security and authentication can be found
 [here](https://next-auth.js.org/getting-started/introduction).
 
-### Providers
+#### Providers
 
 Currently the supported providers are: Google ang Github. To setup providers in
 development, Google and Github accounts are needed. To add the necessary
@@ -295,6 +264,39 @@ DATABASE_URL=
 
 To set it up, get the a API authentication id and secret from Github and
 Google's developers pages and put them in their respective fields.
+
+## **User Stories**
+
+Priorities:
+
+- High (must have): `* * *`
+- Medium (nice to have): `* *`
+- Low (unlikely to have):`*`
+
+| Priority | As a …​        | I want to …​                                                         | So that I can…​                                                      |
+| -------- | -------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `* * *`  | student        | track my progress throughout the semester                            | meet my module requirements                                          |
+| `* * *`  | student        | visualize my progress                                                | be motivated to work towards completing required tasks               |
+| `* * *`  | student        | have a clear view of weekly tasks to be completed                    | tell what is to be done and what is left                             |
+| `* * *`  | student        | have a level bar to judge my progress                                | feel like I’m improving as the weeks go by                           |
+| `* * *`  | student        | post my opinions on the forum anonymously                            | stop feeling embarrassed to ask “dumb” questions                     |
+| `* * *`  | student        | upvote or like forum posts that are interesting                      | help make them receive more attention                                |
+| `* * *`  | student        | view my upvoted forum posts                                          | easily find and refer to them later                                  |
+| `* * *`  | student        | tag my posts                                                         | have an easier time finding and classifying them                     |
+| `* * *`  | student        | chat with my fellow module mates via forum Q&A                       | learn from others who are also taking the module                     |
+| `* * *`  | student        | do past year quizzes                                                 | get a better understanding of the module                             |
+| `* * *`  | student        | be able to make my own quizzes                                       | share my knowledge with other students and help them learn           |
+| `* * *`  | student        | upvote and like quizzes                                              | receive more attention                                               |
+| `* * *`  | student        | view my upvoted quizzes                                              | easily find and refer to them later                                  |
+| `* * *`  | student        | join telegram groups that are related to the mod                     | view discussions and ask questions                                   |
+| `* * *`  | student        | have all relevant information about a module within a single webpage | immediately navigate to it                                           |
+| `* * *`  | student        | contribute online resources that I found to related to module topics | let others benefit from them                                         |
+| `* * *`  | student        | write guides and articles                                            | let them serve as references to myself and my fellow module students |
+| `* * *`  | student        | gamify the process of learning                                       | make doing module related work more fun                              |
+| `* * *`  | student        | contribute to the success of the module                              | future students taking this module can learn better                  |
+| `* *`    | teaching staff | be able to monitor the progress of my students                       | meet my module requirements                                          |
+| `* *`    | teaching staff | create quizzes for students to attempt                               | test easily misunderstood concepts                                   |
+| `* *`    | teaching staff | provide feedback to students for their attempted exercises           | clarify any doubts on the spot                                       |
 
 ## **Glossary**
 
