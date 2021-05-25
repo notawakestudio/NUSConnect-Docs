@@ -3,15 +3,17 @@ sidebar_position: 9
 title: Project Log
 ---
 
-## **Progress breakdown**
+## **Team Progress breakdown**
 
 | Date      | Task Description                    | Team member | hours |
 | --------- | ----------------------------------- | ----------- | ----- |
 | 03/5/2021 | Initial team meeting                | YL + JX     | 3     |
 | 10/5/2021 | Week 1 Sprint team meeting          | YL + JX     | 2     |
+| Week 1    | Set up Quiz, Forum Dashboard        | YL + JX     | 15    |
 | 17/5/2021 | Week 2 Sprint team meeting          | YL + JX     | 2     |
+| Week 2    | Set up Login authentication         | JX          | 5     |
 | 24/5/2021 | Week 3 Sprint team meeting          | YL + JX     | 2     |
-| 25/5/2021 | Set up & migrate documentation site | YL          | 5     |
+| Week 3    | Set up & migrate documentation site | YL          | 5     |
 |           | Week 4 Sprint team meeting          | YL + JX     | 2     |
 |           | Week 5 Sprint team meeting          | YL + JX     | 2     |
 |           | Week 6 Sprint team meeting          | YL + JX     | 2     |
