@@ -6,30 +6,49 @@ title: "Developer Guide"
 
 ## **Introduction**
 
-Frustrated with the lack of material and information available from previous semesters and the lack of functionality in the official learning management system LumiNUS, we set out to design a system where students can learn their module content in a more engaging way.
+Frustrated with the lack of material and information available from previous
+semesters and the lack of functionality in the official learning management
+system LumiNUS, we set out to design a system where students can learn their
+module content in a more engaging way.
 
-With our background as teaching assistants for the module CS2030(Programming methodology II), we have a burning desire to help our students strive for perfection. We know that learning takes time and continuous effort, but making the process of learning fun and enjoyable will greatly improve students’ performance. 
+With our background as teaching assistants for the module CS2030(Programming
+methodology II), we have a burning desire to help our students strive for
+perfection. We know that learning takes time and continuous effort, but making
+the process of learning fun and enjoyable will greatly improve students’
+performance.
 
-We hope that our project becomes a source of external motivating factors that nudge students to learn the materials by heart. We want students to feel good doing assignments, and be rewarded with virtual points and record their attempts for further analysis. We also want students to try alternative ways of learning, via questions and answers in a forum, via quizzes that are self generated or created by the TAs, and via consolidating their learning into articles to be shared with other module students in the wiki.
+We hope that our project becomes a source of external motivating factors that
+nudge students to learn the materials by heart. We want students to feel good
+doing assignments, and be rewarded with virtual points and record their attempts
+for further analysis. We also want students to try alternative ways of learning,
+via questions and answers in a forum, via quizzes that are self generated or
+created by the TAs, and via consolidating their learning into articles to be
+shared with other module students in the wiki.
 
 ---
+
 ## **Tech Stack**
+
 ### Front end
+
 - Nextjs
 - TypeScript
 - Tailwind CSS
 
 ### Back end
+
 - firebase
 - Deta base
 - flask
 
-### Test 
+### Test
+
 - Jest
 - React testing library
 - Cypress
 
 ---
+
 ## **Timeline, testing, configuration, dev-ops, workflow**
 
 - [Timeline](Timeline)
@@ -43,6 +62,7 @@ We hope that our project becomes a source of external motivating factors that nu
 ## **Product Scope**
 
 ### **Target user profile**
+
 - perfers viewing the website on both mobile and laptop environment
 - taking or planning to take a supported module
 - requires help with learning activities
@@ -51,6 +71,7 @@ We hope that our project becomes a source of external motivating factors that nu
 - is keen to help others learning the same module
 
 ### **Value proposition**
+
 - provide powerful features to enhance learning experience and effectiveness
 - user centric and tailored to learners of respective modules
 - intuitive UI and smooth navigation between pages
@@ -61,13 +82,14 @@ We hope that our project becomes a source of external motivating factors that nu
 
 ## **User Stories**
 
-Priorities: 
+Priorities:
+
 - High (must have): `* * *`
 - Medium (nice to have): `* *`
 - Low (unlikely to have):`*`
 
-| Priority | As a …​         | I want to …​                                                          | So that I can…​                                                       |
-|----------|----------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| Priority | As a …​        | I want to …​                                                         | So that I can…​                                                      |
+| -------- | -------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | `* * *`  | student        | track my progress throughout the semester                            | meet my module requirements                                          |
 | `* * *`  | student        | visualize my progress                                                | be motivated to work towards completing required tasks               |
 | `* * *`  | student        | have a clear view of weekly tasks to be completed                    | tell what is to be done and what is left                             |
@@ -91,21 +113,24 @@ Priorities:
 | `* *`    | teaching staff | create quizzes for students to attempt                               | test easily misunderstood concepts                                   |
 | `* *`    | teaching staff | provide feedback to students for their attempted exercises           | clarify any doubts on the spot                                       |
 
-
 ## **Quiz**
 
 There are essentially two pieces of data involved in the quiz functionality.
+
 - A quiz (collection of questions)
 - A quiz question
 
 Main considerations
+
 - Modes (taking, reviewing)
 - CRUD & Database interaction
 - Search and filter
-- Linkage with other components 
+- Linkage with other components
 
 #### Quiz
-A quiz is make up of 
+
+A quiz is make up of
+
 - meta data
 - collection of questions (identified by question ID)
 
@@ -113,19 +138,24 @@ A quiz is make up of
     {
         "id":"TxRDDtSEpnpodO0d-3ygJ", // 21 char unique identifier generated by nanoid
         "title":"CS2030 Quiz 1", // for readability and easy of classification
-        "author":"Bob", // potentially changed to user ID 
+        "author":"Bob", // potentially changed to user ID
         "created":"May 11, 2021", // simple readable date, for filtering
         "week":"1", // for simple classification and display on task board
         "tags":["OOP","intro"], // for filtering and searching
         "questions": ["mtCHNvypLt4TKizuqmP6f","gf669ye6dy4ltJSkKb_tZ", "SUdbM9KBpsbywHQvxpFir","YQdkspzjHcwTL3txI2Bc8"] // list of questions
     },
 ```
-For each quiz, there will be a list of questions. The order of questions displayed in the quiz is according to the order stored.
-There will be two different modes when interacting with the quiz. User is either taking a quiz or reviewing a quiz. The UI should be 
-kept mostly the same, except for the ability to interact with the quiz. 
+
+For each quiz, there will be a list of questions. The order of questions
+displayed in the quiz is according to the order stored. There will be two
+different modes when interacting with the quiz. User is either taking a quiz or
+reviewing a quiz. The UI should be kept mostly the same, except for the ability
+to interact with the quiz.
 
 #### Quesion
+
 A question is make up of
+
 - meta data
 - question text
 - answers (both correct and incorrect answers)
@@ -141,24 +171,28 @@ A question is make up of
     "author":"yongliang", // consider changing this to contributors and user ID
 }
 ```
-For each question, there will be a list of potential answers. Each answer is a string that is either defined as 
-correct or incorrect. The order of the answers will be random when shown, hence there is no inherent order for each
-answer position. This also means that the setter should use "None of the other options" instead of "None of the above options"
-when setting questions.
+
+For each question, there will be a list of potential answers. Each answer is a
+string that is either defined as correct or incorrect. The order of the answers
+will be random when shown, hence there is no inherent order for each answer
+position. This also means that the setter should use "None of the other options"
+instead of "None of the above options" when setting questions.
 
 #### Making a question
+
 To contribute a question, user first visit the `quiz/make` page.
 
 User can then type in according to the format, the details of a question:
+
 ```
 ---
 type: MCQ
-modules: 
+modules:
 - CS2030
 - CS2030S
-correct_answers: 
+correct_answers:
 - "Collection of related classes and interfaces which are bundled together"
-incorrect_answers: 
+incorrect_answers:
 - "We should declare fields as private as much as possible"
 - "We should not throw exceptions that reveal internal implementation of a class as much as possible"
 - "We should avoid using accessors and mutators (also known as getters and setters) to private fields as much as possible"
@@ -167,18 +201,18 @@ incorrect_answers:
 ---
 "What is a package in java?"
 ```
-The question details will also be shown on the right preview panel for checking of markdown behavior.
-Once done, user can click submit to upload the question to question bank. Note that the syntax has to be 
-validated to ensure user is submitting according to the specified format. The question text will be parsed
-to retrieve individual fields and converted to a JSON object posted to the backend. 
-The other details required for a quiz, such as an id and author id, will also be included in the JSON object to be saved. 
+
+The question details will also be shown on the right preview panel for checking
+of markdown behavior. Once done, user can click submit to upload the question to
+question bank. Note that the syntax has to be validated to ensure user is
+submitting according to the specified format. The question text will be parsed
+to retrieve individual fields and converted to a JSON object posted to the
+backend. The other details required for a quiz, such as an id and author id,
+will also be included in the JSON object to be saved.
 
 #### Use cases
 
-System: NUS Connect
-Use case: Take a quiz
-Actor User
-MSS:
+System: NUS Connect Use case: Take a quiz Actor User MSS:
 
 1. User chooses a quiz
 2. User starts the quiz
@@ -188,6 +222,7 @@ MSS:
 Use case ends.
 
 Extensions:
+
 ```
 2a. User sees a question.
     2a1. User selects answers
@@ -197,26 +232,76 @@ Extensions:
 
 ## **Forum**
 
+### **Posts**
+
+Below is the example data for a single post. Some notable items in this are the
+`id` which is randomly generated by
+[nano-id](https://zelark.github.io/nano-id-cc/) and the `user`. The `user` data
+is stored as it will give quick access to the user's profile page and give quick
+accesses to all the data that might be needed.
+
 ```javascript
 
 {
-    "id": 
-    "modules": ["CS2030", "CS2030S"], // for cases of variants
-    "type": "MRQ", // MCQ, MRQ
-    "difficulty": "easy", // easy, medium, hard
-    "question": "What are valid format specifiers for the String.format() method?",
-    "correct_answers": ["%f", "%d","%s"], // consider cases of MRQ
-    "incorrect_answers": ["%w","%z","%q"],
-    "author":"",
-    "isDraft":boolean,
-    // consider adding more properties such as tags, isSeries etc
+    "id": "bRx16ZYrT9xsoIWySu0oB",
+    "title": "There's a new DEV theme in town for all you 10x hackers out there (plus one actually useful new feature)",
+    "description": "There's a new DEV theme in town for all you 10x hackers out there (plus one actually useful new feature)",
+    "tags": "meta, changelog, css, ux",
+    "comments_count": 37,
+    "positive_reactions_count": 12,
+    "created_at": "2019-10-24T13:41:29Z",
+    "edited_at": "2019-10-24T13:56:35Z",
+    "published_at": "2019-10-24T13:52:17Z",
+    "last_comment_at": "2019-10-25T08:12:43Z",
+    "user": {
+        "id" : "MW2ShqnYWA1HdN0dpmhwa"
+        "name": "alex john",
+        "username": "alex",
+        "github_username": "alex",
+        "google_username": "alex"
+    }
 }
+
 ```
+
+## Login and Authentication
+
+Login is done with [next-auth](https://next-auth.js.org). To check if someone is
+signed in, the useSession() hook is implemented and to save the state between
+pages, `Provider` from next-auth/client is implemented. If the application is
+ready for deployment, change the `NEXTAUTH_URL` in .env to the canonical URL of
+the website. All traffic is secure as it uses cross site request forgery tokens
+on sign in and sign out. More info on security and authentication can be found
+[here](https://next-auth.js.org/getting-started/introduction).
+
+### Providers
+
+Currently the supported providers are: Google ang Github. To setup providers in
+development, Google and Github accounts are needed. To add the necessary
+information. A `.env` file will have to be made in the root directory. The
+contents of the `.env` file as as follows:
+
+```
+GITHUB_ID=
+GITHUB_SECRET=
+
+GOOGLE_ID=
+GOOGLE_SECRET=
+
+NEXTAUTH_URL=http://localhost:3000
+DATABASE_URL=
+
+```
+
+To set it up, get the a API authentication id and secret from Github and
+Google's developers pages and put them in their respective fields.
 
 ## **Glossary**
 
 | Term     | Description                               |
-|----------|-------------------------------------------|
+| -------- | ----------------------------------------- |
 | quiz     | a collection of questions                 |
 | question | includes question text and answer options |
 | answer   | a possible option for a question          |
+| forum    | a collection of posts by users            |
+| post     | a way of communication between users      |
