@@ -31,15 +31,15 @@ shared with other module students in the wiki.
 
 ### **Front end**
 
-- Nextjs
+- Next.js
 - TypeScript
 - Tailwind CSS
 
 ### **Back end**
 
-- firebase
+- Firebase
 - Deta base
-- flask
+- Flask
 
 ### **Test**
 
@@ -199,6 +199,8 @@ Extensions:
     2a3. User navigate to another question
 ```
 
+---
+
 ### **Forum Page**
 
 #### **Post**
@@ -233,6 +235,8 @@ accesses to all the data that might be needed.
 
 ```
 
+---
+
 ### **Login and Authentication**
 
 Login is done with [next-auth](https://next-auth.js.org). To check if someone is
@@ -264,6 +268,8 @@ DATABASE_URL=
 
 To set it up, get the a API authentication id and secret from Github and
 Google's developers pages and put them in their respective fields.
+
+---
 
 ## **User Stories**
 
@@ -297,6 +303,8 @@ Priorities:
 | `* *`    | teaching staff | be able to monitor the progress of my students                       | meet my module requirements                                          |
 | `* *`    | teaching staff | create quizzes for students to attempt                               | test easily misunderstood concepts                                   |
 | `* *`    | teaching staff | provide feedback to students for their attempted exercises           | clarify any doubts on the spot                                       |
+
+---
 
 ## **Glossary**
 

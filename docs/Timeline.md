@@ -3,11 +3,11 @@ sidebar_position: 8
 title: Timeline
 ---
 
-## Proposed Plan
+## **Proposed Plan**
 
-## **1st month**
+### 1st month
 
-### **First half**
+#### First half
 
 - V0.1 - Basic functionality
 - Gamification:
@@ -19,7 +19,7 @@ title: Timeline
 - Convenience:
   - A list of useful links related to the module available.
 
-### **Second half**
+#### Second half
 
 - V0.2 - Refinement of basic functionality/ Adding more features (Alpha release)
 - Gamification:
@@ -34,7 +34,7 @@ title: Timeline
 - UI:
   - Updates on UI elements, icons, and layout.
 
-## **2nd month**
+### 2nd month
 
 - V1.0 - Starting to take shape (Beta Release)
   - Gamification: Badge (achievement) system implemented for students to grow as
@@ -52,20 +52,19 @@ title: Timeline
   - Advanced UI elements, animations and logos for badges, quizzes, wiki and
     forum.
 
-## **3rd month**
+### 3rd month
 
 - V2.0 - Complete working product (Public release)
 - Complete any unfinished features
 - Final bug fixing, web testing and functional testing
 - Final documentation update of user guide & developer guide.
 
-## Actual Plan
+## **Actual Plan**
 
-## **1st month**
+### 1st month (Alpha)
 
-### **First half**
+#### v0.1 - Basic functionality
 
-- V0.1 - Basic functionality
 - Quiz:
   - Quiz UI design
   - Quiz UI implemented
@@ -84,9 +83,7 @@ title: Timeline
   - Nav Bar and footer
   - Logo and Favicon
 
-### **Second half**
-
--V0.2 - Refining pages
+#### v0.2 - Refining pages
 
 - Quiz:
   - Ability to take and review completed quiz
