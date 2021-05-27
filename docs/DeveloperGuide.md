@@ -122,8 +122,8 @@ For each quiz, there will be a list of questions. The order of questions
 displayed in the quiz is according to the order stored. There will be two
 different modes when interacting with the quiz. User is either taking a quiz or
 reviewing a quiz. The UI should be kept mostly the same, except for the ability
-to interact with the quiz. When a user submitted a quiz, he will be able to review
-the quiz results and check the correct answers for each question.
+to interact with the quiz. When a user submitted a quiz, he will be able to
+review the quiz results and check the correct answers for each question.
 
 ### Question
 
@@ -153,12 +153,15 @@ instead of "None of the above options" when setting questions.
 
 ### Making a question & quiz
 
-Instead of forcing users to start with a quiz, we would like to treat a question as
-a build block instead. Users are free to create as many questions as they like, and
-curate a quiz out of the created questions. This approach will allow for more reusability and flexibility in terms of generating a stream of questions.
+Instead of forcing users to start with a quiz, we would like to treat a question
+as a build block instead. Users are free to create as many questions as they
+like, and curate a quiz out of the created questions. This approach will allow
+for more reusability and flexibility in terms of generating a stream of
+questions.
 
-Current we offer two ways to make a question/quiz. One will be via a form (preferred) and there is also an option of using an markdown editor. Note that both options 
-support markdown syntax.
+Current we offer two ways to make a question/quiz. One will be via a form
+(preferred) and there is also an option of using an markdown editor. Note that
+both options support markdown syntax.
 
 #### Option 1 (Form)
 
@@ -170,7 +173,10 @@ User can fill in the form, the details of a question:
 - correct answers
 - incorrect answers
 
-The question details will be parsed to retrieve individual fields and converted to a JSON object posted to the backend. The other details required for a question, such as an id and author id, will also be included in the JSON object to be saved.
+The question details will be parsed to retrieve individual fields and converted
+to a JSON object posted to the backend. The other details required for a
+question, such as an id and author id, will also be included in the JSON object
+to be saved.
 
 The same procedure is the same for creating a quiz.
 
@@ -208,9 +214,9 @@ The same procedure is the same for creating a quiz.
 
 ### Use cases
 
-System: NUS Connect 
+System: NUS Connect
 
-Use case: Take a quiz Actor User 
+Use case: Take a quiz Actor User
 
 MSS:
 
@@ -330,6 +336,8 @@ Priorities:
 | `* * *`  | student        | contribute online resources that I found to related to module topics | let others benefit from them                                         |
 | `* * *`  | student        | write guides and articles                                            | let them serve as references to myself and my fellow module students |
 | `* * *`  | student        | gamify the process of learning                                       | make doing module related work more fun                              |
+| `* * *`  | student        | write my forum posts in markdown                                     | have an easier time formatting my posts                              |
+| `* * *`  | student        | save my forum posts                                                  | continue where I left off in the future                              |
 | `* * *`  | student        | contribute to the success of the module                              | future students taking this module can learn better                  |
 | `* *`    | teaching staff | be able to monitor the progress of my students                       | meet my module requirements                                          |
 | `* *`    | teaching staff | create quizzes for students to attempt                               | test easily misunderstood concepts                                   |
