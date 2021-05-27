@@ -91,12 +91,15 @@ There are essentially two pieces of data involved in the quiz functionality.
 
 Main considerations
 
-- Modes (taking, reviewing)
-- CRUD & Database interaction
+- Quiz Modes (previewing, taking, reviewing)
+- CRUD & Database interactions
 - Search and filter
 - Linkage with other components
+- Storing and display of markdown text
+- Code syntax highlighting
+- Integration with Forum
 
-#### Quiz
+### Quiz
 
 A quiz is make up of
 
@@ -119,9 +122,10 @@ For each quiz, there will be a list of questions. The order of questions
 displayed in the quiz is according to the order stored. There will be two
 different modes when interacting with the quiz. User is either taking a quiz or
 reviewing a quiz. The UI should be kept mostly the same, except for the ability
-to interact with the quiz.
+to interact with the quiz. When a user submitted a quiz, he will be able to review
+the quiz results and check the correct answers for each question.
 
-#### Question
+### Question
 
 A question is make up of
 
@@ -147,11 +151,32 @@ will be random when shown, hence there is no inherent order for each answer
 position. This also means that the setter should use "None of the other options"
 instead of "None of the above options" when setting questions.
 
-#### Making a question
+### Making a question & quiz
 
-To contribute a question, user first visit the `quiz/make` page.
+Instead of forcing users to start with a quiz, we would like to treat a question as
+a build block instead. Users are free to create as many questions as they like, and
+curate a quiz out of the created questions. This approach will allow for more reusability and flexibility in terms of generating a stream of questions.
 
-User can then type in according to the format, the details of a question:
+Current we offer two ways to make a question/quiz. One will be via a form (preferred) and there is also an option of using an markdown editor. Note that both options 
+support markdown syntax.
+
+#### Option 1 (Form)
+
+User can fill in the form, the details of a question:
+
+- type
+- modules
+- question
+- correct answers
+- incorrect answers
+
+The question details will be parsed to retrieve individual fields and converted to a JSON object posted to the backend. The other details required for a question, such as an id and author id, will also be included in the JSON object to be saved.
+
+The same procedure is the same for creating a quiz.
+
+#### Option 2 (Markdown Editor)
+
+User can type in according to the format, the details of a question:
 
 ```
 ---
@@ -176,12 +201,18 @@ of markdown behavior. Once done, user can click submit to upload the question to
 question bank. Note that the syntax has to be validated to ensure user is
 submitting according to the specified format. The question text will be parsed
 to retrieve individual fields and converted to a JSON object posted to the
-backend. The other details required for a quiz, such as an id and author id,
+backend. The other details required for a question, such as an id and author id,
 will also be included in the JSON object to be saved.
 
-#### Use cases
+The same procedure is the same for creating a quiz.
 
-System: NUS Connect Use case: Take a quiz Actor User MSS:
+### Use cases
+
+System: NUS Connect 
+
+Use case: Take a quiz Actor User 
+
+MSS:
 
 1. User chooses a quiz
 2. User starts the quiz

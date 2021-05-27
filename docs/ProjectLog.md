@@ -8,6 +8,7 @@ title: Project Log
 | Date      | Task Description                    | Team member | hours |
 | --------- | ----------------------------------- | ----------- | ----- |
 | 03/5/2021 | Initial team meeting                | YL + JX     | 3     |
+| 05/5/2021 | Learning React and NextJS           | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting          | YL + JX     | 2     |
 | Week 1    | Set up Quiz, Forum Dashboard        | YL + JX     | 15    |
 | 17/5/2021 | Week 2 Sprint team meeting          | YL + JX     | 2     |
