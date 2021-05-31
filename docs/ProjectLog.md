@@ -5,23 +5,29 @@ title: Project Log
 
 ## **Team Progress breakdown**
 
-| Date      | Task Description                    | Team member | hours |
-| --------- | ----------------------------------- | ----------- | ----- |
-| 03/5/2021 | Initial team meeting                | YL + JX     | 3     |
-| 05/5/2021 | Learning React and NextJS           | YL + JX     | 15    |
-| 10/5/2021 | Week 1 Sprint team meeting          | YL + JX     | 2     |
-| Week 1    | Set up Quiz, Forum Dashboard        | YL + JX     | 15    |
-| 17/5/2021 | Week 2 Sprint team meeting          | YL + JX     | 2     |
-| Week 2    | Set up Login authentication         | JX          | 5     |
-| 24/5/2021 | Week 3 Sprint team meeting          | YL + JX     | 2     |
-| Week 3    | Set up & migrate documentation site | YL          | 5     |
-|           | Week 4 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 5 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 6 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 7 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 8 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 9 Sprint team meeting          | YL + JX     | 2     |
-|           | Week 10 Sprint team meeting         | YL + JX     | 2     |
+| Date      | Task Description                                | Team member | hours |
+|-----------|-------------------------------------------------|-------------|-------|
+| 03/5/2021 | Initial team meeting                            | YL + JX     | 3     |
+| 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
+| 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
+| Week 1    | Set up Quiz, Forum Dashboard                    | YL + JX     | 20    |
+| 17/5/2021 | Week 2 Sprint team meeting                      | YL + JX     | 2     |
+| Week 2    | Set up Login authentication                     | JX          | 5     |
+| 24/5/2021 | Week 3 Sprint team meeting                      | YL + JX     | 2     |
+| Week 3    | Set up & migrate documentation site             | YL          | 5     |
+| Week 3    | Set up firebase connection                      | JX          | 5     |
+| Week 3    | UI improvements and responsive design for forum | JX          | 5     |
+| Week 3    | Improve Quiz creation UI                        | YL          | 5     |
+| week 3    | UI fixes for landing and dashboard              | YL          | 3     |
+| week 3    | Video and milestone 1 docs preparation          | YL + JX     | 3     |
+| week 3    | Discuss backend data formats and arrangements   | YL + JX     | 3     |
+| 31/5/2021 | Week 4 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 5 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 6 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 7 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 8 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 9 Sprint team meeting                      | YL + JX     | 2     |
+|           | Week 10 Sprint team meeting                     | YL + JX     | 2     |
 
 ## **Progress in a few words**
 
@@ -41,7 +47,7 @@ cloud and we would be able to see real time updates to it with every PR we
 merge. I think this week created a great foundation for us to continue to work
 and improve our product towards final release.
 
-18/5/2021 - Yong Liang
+18/5/2021 - Yongliang
 
 ### Week 2
 
@@ -59,3 +65,9 @@ ease. Overall, the improvements to the app this week have been substantial and
 will be crucial moving forward.
 
 25/5/2021 - Jun Xiong
+
+### Week 3
+
+Last week's progress was slightly slow and we had to spend some time updating all the documentation and publicity resources in preparation for milestone 1 submission. However, I am glad that the login functionality is now in place and we are in good position to make the gamification side of the project. In terms of quiz and forum functionalities, we were proceeding at a slower pace due to more considerations required in terms of data storage and communication between the front-end and the back-end. Overall, the improvements though small, were still important as we head towards more complex work in the coming month.
+
+31/5/2021 - Yongliang
