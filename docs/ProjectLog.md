@@ -6,7 +6,7 @@ title: Project Log
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |
-|-----------|-------------------------------------------------|-------------|-------|
+| --------- | ----------------------------------------------- | ----------- | ----- |
 | 03/5/2021 | Initial team meeting                            | YL + JX     | 3     |
 | 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
@@ -68,6 +68,13 @@ will be crucial moving forward.
 
 ### Week 3
 
-Last week's progress was slightly slow and we had to spend some time updating all the documentation and publicity resources in preparation for milestone 1 submission. However, I am glad that the login functionality is now in place and we are in good position to make the gamification side of the project. In terms of quiz and forum functionalities, we were proceeding at a slower pace due to more considerations required in terms of data storage and communication between the front-end and the back-end. Overall, the improvements though small, were still important as we head towards more complex work in the coming month.
+Last week's progress was slightly slow and we had to spend some time updating
+all the documentation and publicity resources in preparation for milestone 1
+submission. However, I am glad that the login functionality is now in place and
+we are in good position to make the gamification side of the project. In terms
+of quiz and forum functionalities, we were proceeding at a slower pace due to
+more considerations required in terms of data storage and communication between
+the front-end and the back-end. Overall, the improvements though small, were
+still important as we head towards more complex work in the coming month.
 
 31/5/2021 - Yongliang

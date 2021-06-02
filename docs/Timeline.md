@@ -100,3 +100,26 @@ title: Timeline
   - Refactored code
   - Documentation website deployed
   - Backend setup
+
+#### v0.3 - UI and Feature updates
+
+- Quiz:
+  - Better UI creation for quiz/question
+- Forum:
+  - Posting and replying functionality
+  - UI updates
+- Nav Bar:
+  - Responsive design and show user name
+- Login:
+  - Set up Firebase to store user data
+  - Display user data across the site
+- Convenience:
+  - Create some proper schedule JSON data
+- Documentation:
+  - Quiz
+  - Login
+  - Forum
+  - Auth
+- Others:
+  - Completed milestone 1
+  - Made video update

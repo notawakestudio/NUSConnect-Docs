@@ -63,7 +63,8 @@ shared with other module students in the wiki.
 
 ### **Target user profile**
 
-- perfers viewing the website on both mobile and laptop environment
+- NUS students, teaching assistants and professors looking for a better learning management system
+- prefers to view the website on both mobile and laptop environment
 - taking or planning to take a supported module
 - requires help with learning activities
 - looking for ways to interact and learn from peers from the same module
