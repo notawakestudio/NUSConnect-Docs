@@ -59,7 +59,7 @@ title: Timeline
 - Final bug fixing, web testing and functional testing
 - Final documentation update of user guide & developer guide.
 
-## **Actual Plan**
+## **Completed Plan**
 
 ### 1st month (Alpha)
 
