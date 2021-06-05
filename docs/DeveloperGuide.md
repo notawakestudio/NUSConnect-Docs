@@ -367,6 +367,27 @@ the reply indexes that are in the list of replies.
 
 ---
 
+### **Integration**
+
+The integration of quiz and forum is one of the core features of the application. 
+Currently, typical quiz applications do not support continued discussion.
+The quiz/question setters might add in an explanation for people to check against their answers, but they
+usually failed to convey in entirety what is required for the takers to fully dissolve their doubts. Therefore,
+what usually happens afterwards is that someone has to explicitly create a forum post outside of the quiz system,
+make a explicit reference what quiz/question he/she is talking about, then make some clarifying questions. And imagine 
+if everyone have different posts on the same question and all these valuable clarifications that could benefit the question takers
+in the future semesters, but turned into a disorganized mess?
+
+Our solution is simple.
+- When someone is creating a question, as the setter he/she can include an explanation, which will be automatically published as a special category of automatic post. His explanation will be the first comment. That comment could potentially be hidden and only be seen if someone had attempted that question. That post will contain a reference to the exact question and have a way
+to allow viewers to attempt that question directly. What is nice with this setting is that the viewers can comment and leave behind a trail of focused discussion for that particular question.
+- The other channel to automatically publish question related post is when someone is attempting or reviewing a quiz/question. There will be an option to create a post if there’s no post for that question. If there’s already a post, he can check and comment on that existing post.
+
+So technically every question will have one unique post where people can continue the discussion over many semesters.
+On the other hand, these posts will only be generated if ever someone needs an explanation. Thus, if the question is easy and no one had any issue with the question,
+ there won’t be a post for that question at all.
+
+---
 ### **Login and Authentication**
 
 Login is done with [next-auth](https://next-auth.js.org). To check if someone is
