@@ -123,3 +123,21 @@ title: Timeline
 - Others:
   - Completed milestone 1
   - Made video update
+
+#### v1.0 - Backend and Functionality updates
+
+- Quiz:
+  - Better UI creation for quiz/question
+  - Improved backend logic for quiz
+- Forum:
+  - Create a post and reply to a post
+  - Add tags
+  - Connected to database
+- Nav Bar:
+  - Responsive design
+- Login:
+  - Update firebase logic
+- Dashboard:
+  - Minor UI fixes
+- Others:
+  - Fix git action issues to add in Cypress
