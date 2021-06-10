@@ -78,3 +78,15 @@ the front-end and the back-end. Overall, the improvements though small, were
 still important as we head towards more complex work in the coming month.
 
 31/5/2021 - Yongliang
+
+### Week 4
+
+We made a lot of progress last week, with forum and quiz seeing major backend
+improvements with relation to speed and functionality. We also improved the UI
+and updated most of our website to support both mobile view and dark mode. We
+are still behind on some of our goals like gamificaiton and course selection but
+I think that with the following weeks, things will start to pick up pace.
+Overall, the changes made last week will put up in a better position to continue
+development as we start to add more pages and more features to the app.
+
+7/5/2021 - Jun Xiong
