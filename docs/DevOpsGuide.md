@@ -3,11 +3,11 @@ sidebar_position: 5
 title: DevOps Guide
 ---
 
-## **CI**
+## **Continuous Integration**
 
 We use Github Actions to run tests for each PR.
 
-## **CD**
+## **Continous Deployment**
 
 We host our front end on Vercel, which has excellent support for Next.js applications.
 Due to resources constraints, following is the steps to deploy our application:
