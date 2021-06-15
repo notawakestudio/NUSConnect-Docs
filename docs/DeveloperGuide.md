@@ -25,6 +25,8 @@ via questions and answers in a forum, via quizzes that are self generated or
 created by the TAs, and via consolidating their learning into articles to be
 shared with other module students in the wiki.
 
+If you think: "Yet another contrived combination of Luminous and Coursemology", please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out why we think different.
+
 ---
 
 ## **Tech Stack**
@@ -34,6 +36,7 @@ shared with other module students in the wiki.
 - Next.js
 - TypeScript
 - Tailwind CSS
+- Chakra UI
 
 ### **Back end**
 
@@ -460,7 +463,25 @@ Priorities:
 
 ## **Non-Functional Requirements**
 
-To Do
+> Non-functional requirements specify the constraints under which the system is developed and operated.
+
+- Technical requirements:
+  - should work on both 32-bit and 64-bit environments
+  - should work with all existing OS that can install and browse the web via Chrome/Firefox
+- Performance requirements: 
+  - should respond within a maximum of three seconds
+- Load requirements:
+  - should work under heavy load
+  - should allow over 1k modules/posts/quiz/questions/users 
+- Quality requirements: 
+  - should be usable by a freshman
+- Security requirements:
+  - should be secure against known attacks/hacks
+  - should not store passwords
+- Process requirements: 
+  - should follow schedule closely and deliver a major update every one month
+- Notes about project scope: 
+  - should not required to handle majority of admin tasks of a TA/Prof
 
 ---
 

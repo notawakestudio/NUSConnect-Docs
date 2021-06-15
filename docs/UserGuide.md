@@ -11,6 +11,8 @@ With our background as teaching assistants for the module CS2030(Programming met
 
 We hope that our project becomes a source of external motivating factors that nudge students to learn the materials by heart. We want students to feel good doing assignments, and be rewarded with virtual points and record their attempts for further analysis. We also want students to try alternative ways of learning, via questions and answers in a forum, via quizzes that are self generated or created by the TAs, and via consolidating their learning into articles to be shared with other module students in the wiki.
 
+If you think: "Yet another contrived combination of Luminous and Coursemology", please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out why we think different.
+
 ## **Quickstart**
 Login with a variety of options (Google, Github, etc) and start your journey today!
 
@@ -37,6 +39,7 @@ Milestones
 Leveling system
 - consider using Fibonacci sequence
 - 0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	610	987	1597	2584	4181	6765
+- will be able to see one's standing in the scorebard
 
 ### **Learning opportunities**
 
@@ -61,3 +64,7 @@ Finally, our final goal is to branch this out to every CS module and then to eve
 Q: Can I use the website without logging in?
 
 A: Our system comes with a gamified profile that tracks the progress of users who actively participate in various activities. Thus, we recommend users to login and create a profile with us. However, some features of the website will be kept public to allow users to access the materials easily.
+
+Q: What is the pricing model for the website?
+
+A: In a very realistic sense, we understand that montary rewards can be very effective in keeping a project alive. However, we decided to keep our website free of charge for the initial launch and for as long as possible to support learning activities. This is possible becaues we stand on the shoulders of giants (that are kind enough to provide generous resources at minimal costs).
