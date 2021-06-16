@@ -141,3 +141,20 @@ title: Timeline
   - Minor UI fixes
 - Others:
   - Fix git action issues to add in Cypress
+
+#### v1.1 - Linking quiz and forum
+
+- Quiz:
+  - Update creation of quiz logic
+  - Ability to view post from a question
+- Forum:
+  - Added data management features
+  - Fixed up landing page
+  - Completed search and tag functionality
+- Profile:
+  - Landing page
+  - Editing ability
+- Scoreboard:
+  - Mock page
+- Badges:
+  - Created a list of all badges

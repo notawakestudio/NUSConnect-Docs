@@ -24,6 +24,9 @@ title: Project Log
 | 31/5/2021 | Week 4 Sprint team meeting                      | YL + JX     | 2     |
 | Week 4    | Adding tags to forum posts                      | YL          | 2     |
 | Week 4    | Include Cypress as E2E teting tool              | YL          | 5     |
+| Week 4    | Fixed firebase logic and backend                | YL          | 5     |
+| Week 4    | Improved creation page for quiz and question    | JX          | 5     |
+| Week 4    | Include Cypress as E2E teting tool              | YL          | 5     |
 | 07/6/2021 | Week 5 Sprint team meeting                      | YL + JX     | 2     |
 | Week 5    | Fix fetch & update of forum data                | YL          | 5     |
 | Week 5    | Update landing page for forum                   | JX          | 5     |
@@ -101,17 +104,19 @@ development as we start to add more pages and more features to the app.
 
 ### Week 5
 
-Further changes were made in order to get the forum and quiz basic functionalities to
-be even more polish. There were many  consuming tasks that though not important
-individually, affect the overall user experience of our application. We added things like
-the search and filter functionality to forum. We also started to look at the highlight of
-our application: the integration between forum and quiz. The ability to view a relevant post
-when reviewing a quiz attempt was implemented and more updates to come in the following days!
-Overall, I would say the week's progress was on the slower side of development. However, there
-were many important lessons we learned through this journey. For example, the exploration of 
-data management packages such as SWR and react-query for the front-end data fetching mechanism. 
-There were also many minor design bugs that we uncovered and fixed along the way. As we are soon
-reaching the midway of our development, we hope to keep up with the consistency and make realistic
-improvements towards finishing the application.
+Further changes were made in order to get the forum and quiz basic
+functionalities to be even more polish. There were many consuming tasks that
+though not important individually, affect the overall user experience of our
+application. We added things like the search and filter functionality to forum.
+We also started to look at the highlight of our application: the integration
+between forum and quiz. The ability to view a relevant post when reviewing a
+quiz attempt was implemented and more updates to come in the following days!
+Overall, I would say the week's progress was on the slower side of development.
+However, there were many important lessons we learned through this journey. For
+example, the exploration of data management packages such as SWR and react-query
+for the front-end data fetching mechanism. There were also many minor design
+bugs that we uncovered and fixed along the way. As we are soon reaching the
+midway of our development, we hope to keep up with the consistency and make
+realistic improvements towards finishing the application.
 
 14/6/2021 - Yong Liang
