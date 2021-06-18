@@ -25,7 +25,9 @@ via questions and answers in a forum, via quizzes that are self generated or
 created by the TAs, and via consolidating their learning into articles to be
 shared with other module students in the wiki.
 
-If you think: "Yet another contrived combination of Luminous and Coursemology", please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out why we think different.
+If you think: "Yet another contrived combination of Luminous and Coursemology",
+please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out
+why we think different.
 
 ---
 
@@ -372,25 +374,41 @@ the reply indexes that are in the list of replies.
 
 ### **Integration**
 
-The integration of quiz and forum is one of the core features of the application. 
-Currently, typical quiz applications do not support continued discussion.
-The quiz/question setters might add in an explanation for people to check against their answers, but they
-usually failed to convey in entirety what is required for the takers to fully dissolve their doubts. Therefore,
-what usually happens afterwards is that someone has to explicitly create a forum post outside of the quiz system,
-make a explicit reference what quiz/question he/she is talking about, then make some clarifying questions. And imagine 
-if everyone have different posts on the same question and all these valuable clarifications that could benefit the question takers
-in the future semesters, but turned into a disorganized mess?
+The integration of quiz and forum is one of the core features of the
+application. Currently, typical quiz applications do not support continued
+discussion. The quiz/question setters might add in an explanation for people to
+check against their answers, but they usually failed to convey in entirety what
+is required for the takers to fully dissolve their doubts. Therefore, what
+usually happens afterwards is that someone has to explicitly create a forum post
+outside of the quiz system, make a explicit reference what quiz/question he/she
+is talking about, then make some clarifying questions. And imagine if everyone
+have different posts on the same question and all these valuable clarifications
+that could benefit the question takers in the future semesters, but turned into
+a disorganized mess?
 
 Our solution is simple.
-- When someone is creating a question, as the setter he/she can include an explanation, which will be automatically published as a special category of automatic post. His explanation will be the first comment. That comment could potentially be hidden and only be seen if someone had attempted that question. That post will contain a reference to the exact question and have a way
-to allow viewers to attempt that question directly. What is nice with this setting is that the viewers can comment and leave behind a trail of focused discussion for that particular question.
-- The other channel to automatically publish question related post is when someone is attempting or reviewing a quiz/question. There will be an option to create a post if there’s no post for that question. If there’s already a post, he can check and comment on that existing post.
 
-So technically every question will have one unique post where people can continue the discussion over many semesters.
-On the other hand, these posts will only be generated if ever someone needs an explanation. Thus, if the question is easy and no one had any issue with the question,
- there won’t be a post for that question at all.
+- When someone is creating a question, as the setter he/she can include an
+  explanation, which will be automatically published as a special category of
+  automatic post. His explanation will be the first comment. That comment could
+  potentially be hidden and only be seen if someone had attempted that question.
+  That post will contain a reference to the exact question and have a way to
+  allow viewers to attempt that question directly. What is nice with this
+  setting is that the viewers can comment and leave behind a trail of focused
+  discussion for that particular question.
+- The other channel to automatically publish question related post is when
+  someone is attempting or reviewing a quiz/question. There will be an option to
+  create a post if there’s no post for that question. If there’s already a post,
+  he can check and comment on that existing post.
+
+So technically every question will have one unique post where people can
+continue the discussion over many semesters. On the other hand, these posts will
+only be generated if ever someone needs an explanation. Thus, if the question is
+easy and no one had any issue with the question, there won’t be a post for that
+question at all.
 
 ---
+
 ### **Login and Authentication**
 
 Login is done with [next-auth](https://next-auth.js.org). To check if someone is
@@ -463,24 +481,27 @@ Priorities:
 
 ## **Non-Functional Requirements**
 
-> Non-functional requirements specify the constraints under which the system is developed and operated.
+> Non-functional requirements specify the constraints under which the system is
+> developed and operated.
 
 - Technical requirements:
   - should work on both 32-bit and 64-bit environments
-  - should work with all existing OS that can install and browse the web via Chrome/Firefox
-- Performance requirements: 
+  - should work with all existing OS that can install and browse the web via
+    Chrome/Firefox
+- Performance requirements:
   - should respond within a maximum of three seconds
 - Load requirements:
   - should work under heavy load
-  - should allow over 1k modules/posts/quiz/questions/users 
-- Quality requirements: 
+  - should allow over 1k modules/posts/quiz/questions/users
+- Quality requirements:
   - should be usable by a freshman
+  - should be usable by all NUS students
 - Security requirements:
   - should be secure against known attacks/hacks
   - should not store passwords
-- Process requirements: 
+- Process requirements:
   - should follow schedule closely and deliver a major update every one month
-- Notes about project scope: 
+- Notes about project scope:
   - should not required to handle majority of admin tasks of a TA/Prof
 
 ---
