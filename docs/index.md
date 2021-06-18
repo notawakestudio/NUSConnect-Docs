@@ -27,6 +27,12 @@ In our own words:
 - A longer descriptive version: A gamified learning management system that is
   accessible to all and easy to use.
 
+## **Software Engineering Practices**
+We hope to build something that is:
+- Well functioning
+- Well documented
+- Well tested
+
 ## **Milestone 1 (Ideation)**
 
 ### Problem motivation

@@ -3,6 +3,7 @@ sidebar_position: 9
 title: Project Log
 ---
 
+View our [timeline](Timeline) to see what's been planned and what's ahead.
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |

@@ -23,7 +23,7 @@ least, this is what we hope to achieve based on our own needs and knowledge:
 - A way to motivate students to participate in creation of exercise questions so
   that they can practice them before the exams.
 
-## **Integration**
+## **Scenarios**
 
 Have you ever done something of the following:
 
@@ -32,10 +32,17 @@ Have you ever done something of the following:
 
 ## **Why Not xxx & Why Us**
 
-#TODO
+Here's our attempt to address the elephants in the room.
 
-## **Why Not LumiNUS & Why Us**
+### **Why Not LumiNUS & Why Us**
 
 We improve on many of LumiNUS's core features such as quiz taking and forum post
 viewing. We also make it easy to use our app as the navigation between the pages
 is much smoother saving time and improving efficiency.
+
+### **Why Not Coursemology & Why Us**
+
+If you are not aware, the Coursemology website states that it is
+> built by teachers, for teachers 
+
+We however, are students who care about learning. We take pride in sharing our perspective and bring functionalities that might be closer to the hearts of fellow students. We literally walk our talk, among our target users. 

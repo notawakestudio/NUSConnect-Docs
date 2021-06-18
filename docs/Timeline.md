@@ -3,6 +3,8 @@ sidebar_position: 8
 title: Timeline
 ---
 
+View our [project log](ProjectLog) to see what's been done.
+
 ## **Proposed Plan**
 
 ### 1st month
