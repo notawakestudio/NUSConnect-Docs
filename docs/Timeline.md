@@ -160,3 +160,19 @@ View our [project log](ProjectLog) to see what's been done.
   - Mock page
 - Badges:
   - Created a list of all badges
+
+#### v1.2 - Quality of life improvements and UI updates
+
+- Quiz:
+  - Fixed bugs with quiz logic
+  - Ability to generate a post from a question.
+- Forum:
+  - UI improvements
+  - Mark post as wiki
+  - Post is now able to link to a quiz question.
+- Profile:
+  - User backend created
+  - Editing of user name
+- Documentation:
+  - Update testing guide
+  - Update developer guide

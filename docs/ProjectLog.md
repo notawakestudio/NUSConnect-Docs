@@ -4,6 +4,7 @@ title: Project Log
 ---
 
 View our [timeline](Timeline) to see what's been planned and what's ahead.
+
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |
@@ -36,7 +37,12 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 5    | Create scoreboard page                          | YL          | 3     |
 | week 5    | Update profile page to display module info      | YL + JX     | 3     |
 | 14/6/2021 | Week 6 Sprint team meeting                      | YL + JX     | 2     |
-|           | Week 7 Sprint team meeting                      | YL + JX     | 2     |
+| week 6    | Create user backend                             | YL          | 5     |
+| week 6    | Crate forum post from question                  | JX          | 5     |
+| week 6    | Mark posts as wiki and link posts to question   | YL          | 5     |
+| week 6    | UI improvements for quiz, forum and questions   | JX          | 5     |
+| week 6    | Documentation updates                           | YL + JX     | 5     |
+| 21/6/2021 | Week 7 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 8 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 9 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 10 Sprint team meeting                     | YL + JX     | 2     |
