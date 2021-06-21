@@ -14,12 +14,27 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 - [Project Poster](https://raw.githubusercontent.com/notawakestudio/NUSConnect/main/public/NotAwake.png)
 - [Project Video](https://www.youtube.com/watch?v=jXnn7Yx96TU)
 
+Take a look the other pages!
+
+- [User Guide](UserGuide)
+- [Developer Guide](DeveloperGuide)
+- [Workflow Guide](WorkflowGuide)
+- [DevOps Guide](DevOpsGuide)
+- [Testing Guide](TestingGuide)
+- [Configuration Guide](ConfigurationGuide)
+- [Timeline](Timeline)
+- [ProjectLog](ProjectLog)
+- [Competitive Analysis](CompetitiveAnalysis)
+
 ## **Level of achievement**
 
 Officially: Artemis
 
 In our own words:
-> A software application that we are proud of. One that follows the standard software engineering practices. One that we are not afraid to show you the code. One that we use to remember this summer of NUS CS journey.
+
+> A software application that we are proud of. One that follows the standard
+> software engineering practices. One that we are not afraid to show you the
+> code. One that we use to remember this summer of NUS CS journey.
 
 ## **Project Scope**
 
@@ -28,7 +43,9 @@ In our own words:
   accessible to all and easy to use.
 
 ## **Software Engineering Practices**
+
 We hope to build something that is:
+
 - Well functioning
 - Well documented
 - Well tested
@@ -56,7 +73,10 @@ via questions and answers in a forum, via quizzes that are self generated or
 created by the TAs, and via consolidating their learning into articles to be
 shared with other module students in the wiki.
 
-If you think: "Yet another contrived combination of Luminous and Coursemology", please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out why we think different.
+If you think: "Yet another contrived combination of Luminous and Coursemology",
+please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out
+why we think different.
+
 ### Proposed core features
 
 - Forum:

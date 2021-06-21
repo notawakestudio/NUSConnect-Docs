@@ -294,6 +294,7 @@ A post is made up of
 
 - meta data
 - collection of tags selected by the user
+- an optional string linking to a question
 
 A student cannot create tags but the module admins can create tags. This is to
 prevent too many random single use tags from popping up.
@@ -311,7 +312,8 @@ prevent too many random single use tags from popping up.
      "week": "Week 1", // week is auto generated based on the school sem
      "reply_count": "37", // reply count updated after a reply is posted
      "up_votes": "10", // up votes will be updated after a user likes the post
-     "is_edited": false // will show if the user has changed or updated the original post
+     "is_edited": false, // will show if the user has changed or updated the original post
+     "related_question_id": '' // A string ID that will link to a question. This field is optional
  }
 
 ```

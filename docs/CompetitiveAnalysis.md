@@ -27,7 +27,7 @@ least, this is what we hope to achieve based on our own needs and knowledge:
 
 Have you ever done something of the following:
 
-1. Pulzzed over a difficult question in past-year-papers/exercise and decided to
+1. Puzzled over a difficult question in past-year-papers/exercise and decided to
    google for something relevant
 
 ## **Why Not xxx & Why Us**
@@ -43,6 +43,9 @@ is much smoother saving time and improving efficiency.
 ### **Why Not Coursemology & Why Us**
 
 If you are not aware, the Coursemology website states that it is
-> built by teachers, for teachers 
 
-We however, are students who care about learning. We take pride in sharing our perspective and bring functionalities that might be closer to the hearts of fellow students. We literally walk our talk, among our target users. 
+> built by teachers, for teachers
+
+We however, are students who care about learning. We take pride in sharing our
+perspective and bring functionalities that might be closer to the hearts of
+fellow students. We literally walk our talk, among our target users.
