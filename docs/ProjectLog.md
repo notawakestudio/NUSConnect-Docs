@@ -127,3 +127,18 @@ midway of our development, we hope to keep up with the consistency and make
 realistic improvements towards finishing the application.
 
 14/6/2021 - Yong Liang
+
+### Week 6
+
+There were many minor but meaningful UI changes as well as functionality and
+code abstraction. Many bugs were also addressed and we believe that the user
+experience will be much smoother moving forward. Refactoring oir code and
+cleaning up errors were also a focus of this weeks activity as we come close to
+finishing all our core features. Quiz and forum now link to one another
+seamlessly and users can see forum posts after finishing their quiz questions.
+Users can also change their user name with ease. Finally, we improved our
+documentation to include acceptance testing and other testing methods as well as
+some improvements to our developer guide. Overall, we managed to clean up much
+of our code and improved the functionality and readability of our code.
+
+21/6/2021 - Jun Xiong
