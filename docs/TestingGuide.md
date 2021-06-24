@@ -252,3 +252,48 @@ interactions.
       screen and the like button turns blue.
 
 ### Quiz
+
+1. Visit Quiz homepage
+
+   1. Visit
+      [https://nus-connect.vercel.app/quiz](https://nus-connect.vercel.app/quiz)
+   2. Expected: The user sees a group of cards in the center of their screen
+      with information about each quiz.
+
+2. Visit a Question
+
+   1. Visit
+      [https://nus-connect.vercel.app/quiz](https://nus-connect.vercel.app/quiz)
+      and click on any question in the center.
+   2. Expected: A pop up should appear asking for confirmation and there should
+      be an option to go into the question itself.
+
+3. Making a question/quiz
+
+   1. Visit
+      [https://nus-connect.vercel.app/quiz](https://nus-connect.vercel.app/quiz).
+   2. Prerequisites: The user must be logged in to make a question.
+   3. Expected: The user see the contribute a question button in the center of
+      the screen. Users can click this to go into a interface to create an
+      **individual** question / a quiz made of a few questions.
+   4. Test case 1: Fill in the required fields, and click save.
+   5. Expected case 1: A question is successfully saved and the user sees a
+      success toast pop up at the top right of the screen.
+   6. Test case 2: Leave the fields empty and click save.
+   7. Expected case 2: A error message will pop up on the top right and text
+      showing the required fields will show up. Question will not be posted.
+
+4. Editing/deleting a question
+
+   in progress
+
+5. Liking a quiz
+
+   1. Visit
+      [https://nus-connect.vercel.app/quiz](https://nus-connect.vercel.app/quiz)
+      and click on the like button on any of the quiz questions.
+   2. Expected: User should see a like icon on the main quiz as well as the
+      replies.
+   3. Test case 1: Like a quiz or reply by clicking on the like icon.
+   4. Expected case 1: A success toast is shown in the center bottom of the
+      screen and the like button turns blue.
