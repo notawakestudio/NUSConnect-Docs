@@ -8,14 +8,13 @@ slug: /
 
 This section is for you (evaluators, judges, advisers, and friends)!!!
 
-
 - Readme: What you are looking at is the Readme!
 - Our product: [NUSConnect](https://nus-connect.vercel.app/)
 - [Project Log](ProjectLog)
 - [Project Poster](https://raw.githubusercontent.com/notawakestudio/NUSConnect/main/public/NotAwake.png)
 - [Project Video](https://www.youtube.com/watch?v=jXnn7Yx96TU)
 
-The following pages document in detail the different aspects of the project. 
+The following pages document in detail the different aspects of the project.
 
 They are also available at the sidebar. Take a look at them!
 

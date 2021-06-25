@@ -25,10 +25,9 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 3    | Discuss backend data formats and arrangements   | YL + JX     | 3     |
 | 31/5/2021 | Week 4 Sprint team meeting                      | YL + JX     | 2     |
 | Week 4    | Adding tags to forum posts                      | YL          | 2     |
-| Week 4    | Include Cypress as E2E teting tool              | YL          | 5     |
+| Week 4    | Include Cypress as E2E testing tool             | YL          | 5     |
 | Week 4    | Fixed firebase logic and backend                | YL          | 5     |
 | Week 4    | Improved creation page for quiz and question    | JX          | 5     |
-| Week 4    | Include Cypress as E2E teting tool              | YL          | 5     |
 | 07/6/2021 | Week 5 Sprint team meeting                      | YL + JX     | 2     |
 | Week 5    | Fix fetch & update of forum data                | YL          | 5     |
 | Week 5    | Update landing page for forum                   | JX          | 5     |
@@ -65,7 +64,7 @@ cloud and we would be able to see real time updates to it with every PR we
 merge. I think this week created a great foundation for us to continue to work
 and improve our product towards final release.
 
-18/5/2021 - Yongliang
+18/5/2021 - Yong Liang
 
 ### Week 2
 
@@ -95,14 +94,14 @@ more considerations required in terms of data storage and communication between
 the front-end and the back-end. Overall, the improvements though small, were
 still important as we head towards more complex work in the coming month.
 
-31/5/2021 - Yongliang
+31/5/2021 - Yong Liang
 
 ### Week 4
 
 We made a lot of progress last week, with forum and quiz seeing major backend
 improvements with relation to speed and functionality. We also improved the UI
 and updated most of our website to support both mobile view and dark mode. We
-are still behind on some of our goals like gamificaiton and course selection but
+are still behind on some of our goals like gamification and course selection but
 I think that with the following weeks, things will start to pick up pace.
 Overall, the changes made last week will put up in a better position to continue
 development as we start to add more pages and more features to the app.
