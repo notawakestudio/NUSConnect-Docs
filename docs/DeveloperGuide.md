@@ -39,6 +39,7 @@ why we think different.
 - TypeScript
 - Tailwind CSS
 - Chakra UI
+- Many other awesome reusable packages on NPM
 
 ### **Back end**
 
@@ -51,6 +52,7 @@ why we think different.
 - Jest
 - React testing library
 - Cypress
+- JMeter
 
 ---
 
@@ -89,9 +91,24 @@ why we think different.
 
 ## **Functionality**
 
-### **User Data**
+### **User**
 
-#TODO
+As our application intends to make use of gamifcation, by necessity we need to have a way to keep track of users and their activities. Users first login via the social login options provided. Our firebase backend will keep track of the user session as well as the unique user ID. For a first time user, the user ID will be retrieved from firebase and used to populate the user database over at Deta base, our main backend database. All relevant information of the user will be saved.
+
+The user data structure is as follows:
+
+```json
+{
+  id: string
+  modules: string[]
+  profilePicUrl: string
+  role: string
+  userName: string
+  displayName: string
+  email: string
+  created_date: number
+}
+```
 
 ### **Index Generation**
 
@@ -104,7 +121,7 @@ billion years of continuous generation.
 
 ### **Quiz Page**
 
-There where essentially two pieces of data involved in the quiz functionality.
+There are essentially two pieces of data involved in the quiz functionality.
 
 - A quiz (collection of questions)
 - A quiz question
@@ -267,7 +284,7 @@ Extensions:
 ### **Forum Page**
 
 The content of forum is split into multiple components, a list of all the posts,
-the main post and the replies. There where essentially two pieces of data
+the main post and the replies. There are essentially two pieces of data
 involved in the post functionality.
 
 - A post
@@ -383,13 +400,21 @@ check against their answers, but they usually failed to convey in entirety what
 is required for the takers to fully dissolve their doubts. Therefore, what
 usually happens afterwards is that someone has to explicitly create a forum post
 outside of the quiz system, make a explicit reference what quiz/question he/she
-is talking about, then make some clarifying questions. And imagine if everyone
-have different posts on the same question and all these valuable clarifications
-that could benefit the question takers in the future semesters, but turned into
-a disorganized mess?
+is talking about, then make some clarifying questions. Imagine all these 
+valuable clarifications that could benefit the question takers in the future 
+semesters, but turning into a disorganized mess and getting lost in time.
 
-Our solution is simple.
+We offer a few practical ways to integrate between functionalities.
 
+(Current implementation)
+- When someone is reviewing a quiz that he/she just taken, there is an option to 
+ask related questions in the forum. By clicking on that option, the taker can write
+a post without specifying which question he/she is referring to. The question ID will
+be recorded and when someone sees such a post, the post itself contains an option to view
+the question directly.
+- When reviewing a quiz, the takers can also see related posts listed in the same page.
+
+(Alternative)
 - When someone is creating a question, as the setter he/she can include an
   explanation, which will be automatically published as a special category of
   automatic post. His explanation will be the first comment. That comment could
@@ -403,7 +428,7 @@ Our solution is simple.
   create a post if there’s no post for that question. If there’s already a post,
   he can check and comment on that existing post.
 
-So technically every question will have one unique post where people can
+So technically every question will have posts where people can
 continue the discussion over many semesters. On the other hand, these posts will
 only be generated if ever someone needs an explanation. Thus, if the question is
 easy and no one had any issue with the question, there won’t be a post for that
