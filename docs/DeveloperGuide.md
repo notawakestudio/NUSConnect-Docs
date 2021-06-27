@@ -26,7 +26,7 @@ created by the TAs, and via consolidating their learning into articles to be
 shared with other module students in the wiki.
 
 If you think: "Yet another contrived combination of Luminous and Coursemology",
-please read our [Competitive Anaylsis](CompetitiveAnalysis) section to find out
+please read our [Competitive Analysis](CompetitiveAnalysis) section to find out
 why we think different.
 
 ---
@@ -93,7 +93,13 @@ why we think different.
 
 ### **User**
 
-As our application intends to make use of gamifcation, by necessity we need to have a way to keep track of users and their activities. Users first login via the social login options provided. Our firebase backend will keep track of the user session as well as the unique user ID. For a first time user, the user ID will be retrieved from firebase and used to populate the user database over at Deta base, our main backend database. All relevant information of the user will be saved.
+As our application intends to make use of gamification, by necessity we need to
+have a way to keep track of users and their activities. Users first login via
+the social login options provided. Our firebase backend will keep track of the
+user session as well as the unique user ID. For a first time user, the user ID
+will be retrieved from firebase and used to populate the user database over at
+Deta base, our main backend database. All relevant information of the user will
+be saved.
 
 The user data structure is as follows:
 
@@ -227,7 +233,7 @@ The same procedure is the same for creating a quiz.
 
 User can type in according to the format, the details of a question:
 
-```
+```text
 ---
 type: MCQ
 modules:
@@ -272,7 +278,7 @@ Use case ends.
 
 Extensions:
 
-```
+```text
 2a. User sees a question.
     2a1. User selects answers
     2a2. System stores user selections
@@ -284,8 +290,8 @@ Extensions:
 ### **Forum Page**
 
 The content of forum is split into multiple components, a list of all the posts,
-the main post and the replies. There are essentially two pieces of data
-involved in the post functionality.
+the main post and the replies. There are essentially two pieces of data involved
+in the post functionality.
 
 - A post
 - A reply
@@ -400,21 +406,24 @@ check against their answers, but they usually failed to convey in entirety what
 is required for the takers to fully dissolve their doubts. Therefore, what
 usually happens afterwards is that someone has to explicitly create a forum post
 outside of the quiz system, make a explicit reference what quiz/question he/she
-is talking about, then make some clarifying questions. Imagine all these 
-valuable clarifications that could benefit the question takers in the future 
+is talking about, then make some clarifying questions. Imagine all these
+valuable clarifications that could benefit the question takers in the future
 semesters, but turning into a disorganized mess and getting lost in time.
 
 We offer a few practical ways to integrate between functionalities.
 
 (Current implementation)
-- When someone is reviewing a quiz that he/she just taken, there is an option to 
-ask related questions in the forum. By clicking on that option, the taker can write
-a post without specifying which question he/she is referring to. The question ID will
-be recorded and when someone sees such a post, the post itself contains an option to view
-the question directly.
-- When reviewing a quiz, the takers can also see related posts listed in the same page.
+
+- When someone is reviewing a quiz that he/she just taken, there is an option to
+  ask related questions in the forum. By clicking on that option, the taker can
+  write a post without specifying which question he/she is referring to. The
+  question ID will be recorded and when someone sees such a post, the post
+  itself contains an option to view the question directly.
+- When reviewing a quiz, the takers can also see related posts listed in the
+  same page.
 
 (Alternative)
+
 - When someone is creating a question, as the setter he/she can include an
   explanation, which will be automatically published as a special category of
   automatic post. His explanation will be the first comment. That comment could
@@ -428,10 +437,10 @@ the question directly.
   create a post if there’s no post for that question. If there’s already a post,
   he can check and comment on that existing post.
 
-So technically every question will have posts where people can
-continue the discussion over many semesters. On the other hand, these posts will
-only be generated if ever someone needs an explanation. Thus, if the question is
-easy and no one had any issue with the question, there won’t be a post for that
+So technically every question will have posts where people can continue the
+discussion over many semesters. On the other hand, these posts will only be
+generated if ever someone needs an explanation. Thus, if the question is easy
+and no one had any issue with the question, there won’t be a post for that
 question at all.
 
 ---
@@ -453,7 +462,7 @@ development, Google and Github accounts are needed. To add the necessary
 information. A `.env` file will have to be made in the root directory. The
 contents of the `.env` file as as follows:
 
-```
+```text
 GITHUB_ID=
 GITHUB_SECRET=
 

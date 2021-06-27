@@ -98,6 +98,30 @@ why we think different.
 
 View implementation of core features [here](DeveloperGuide#quiz)
 
+### Proposed plan for next milestone
+
+- Forum:
+  - We have this mostly completed, so it will just be UI updates and cleaning of
+    code.
+- Quiz:
+  - We have this mostly completed, so it will just be UI updates and cleaning of
+    code.
+- Wiki:
+  - We plan on integrating this with the forum so that they are all accessible
+    from one spot.
+- Profile & Dashboard:
+  - We have yet to link the backend to the frontend for this area and will do so
+    within the coming weeks.
+- Badge:
+  - The badges have been made but the ability to get the badges after completion
+    of a quest has yet to be completed and that will be done in the coming
+    weeks.
+- Testing:
+  - We are currently in the mist of adding test cases and improving our test
+    coverage. Starting with end-to-end tests and acceptance testing first.
+
+View our timeline logs [here](Timeline)
+
 ### User Stories
 
 View all our user stories [here](DeveloperGuide#user-stories)!

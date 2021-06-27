@@ -49,26 +49,44 @@ Lastly we want all their learning activities to be tracked and gamified to
 provide a constant stream of motivation to achieve more. In summary, we hope to
 provide students with the following:
 
-### **Motivation**
+### **Motivation for users**
 
 - Gamification of tasks and visualization of student’s progress
 
+#### **Quality of life features**
+
+- A better quiz app, makes making quizzes easier and more enjoyable
+- Forum is quick and simple to use, one-click to navigate to any post with smart
+  sorting and filtering.
+- Dashboard for users to see what is going on at a glance with quick access to
+  all other pages.
+
 #### **Badges**
 
-Milestones
+Badges are a good way to show off your achievements to the other users in your
+class. Some of the badges that are currently available are:
 
-- sign up
-- first task done
-- first quiz taken
-- first forum post
+| Badges              | Requirement                                 |
+| ------------------- | ------------------------------------------- |
+| Smart Badge         | answer 1,10,100 quiz question correct       |
+| Strong Badge        | complete 1,10,100 questions                 |
+| Math badge          | student                                     |
+| Achilles Heel Badge | get 1,10,100 questions wrong                |
+| Welcome Badge       | Create and setup your account!              |
+| Ace Badge           | get full marks for a quiz 1,10,100 times    |
+| Community Badge     | make 1,10,100 forum posts                   |
+| Takeoff Badge       | reply a post 1,10,100 times                 |
+| Speed Badge         | be the first to reply a post 1,10,100 times |
 
-#### **Experience Points**
+#### **Experience points**
 
-Leveling system
+Leveling system where the user can do quests to get more experience points.
 
-- consider using Fibonacci sequence
-- 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765
-- will be able to see one's standing in the scorebard
+- Users will be able to see their standing in a leader-board to gauge their
+  efforts compared to the other students.
+- Leveling will feel rewarding as levels get exponentially harder to increase as
+  time goes on.
+- Leveling will unlock new user privileges as they become higher in level.
 
 ### **Learning opportunities**
 
