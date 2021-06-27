@@ -31,7 +31,7 @@ and we utilize the Deta Micros & Deta Base to store our data. In terms of config
  - edit the code in `main.py`
  - update any requirements in `requirements.txt`
  - run `deta deploy` in the command line to deploy the changes
- - View the deta dashboard to check logs and database content
+ - view the deta dashboard to check logs and database content
 
 
 ## **Additional Resources**
