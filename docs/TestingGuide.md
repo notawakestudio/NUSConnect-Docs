@@ -30,7 +30,8 @@ gives the developers great confidence that the software will work as expected.
 For the purpose of accessment and documentation, we provide the following visual test artifacts (Recorded test runs for end to end tests, test summary statistics etc) as a proof of test execution and feedback. The details of the test cases can be found in the codebase as well.
 
 #### Video recorded of a Cypress End-to-end test run:
-#TODO
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMIecsQFJH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Gif of automated test results of a Github Action run:
 ![gif](https://github.com/notawakestudio/NUSConnect-Docs/blob/master/static/img/githubActionArtifact.gif?raw=true)
 
