@@ -12,7 +12,7 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 - Our product: [NUSConnect](https://nus-connect.vercel.app/)
 - [Project Log](ProjectLog)
 - [Project Poster](https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png?raw=true)
-- [Project Video](https://www.youtube.com/watch?v=jXnn7Yx96TU)
+- [Project Video](https://youtu.be/_XADzDJ645E)
 
 The following pages document in detail the different aspects of the project.
 
