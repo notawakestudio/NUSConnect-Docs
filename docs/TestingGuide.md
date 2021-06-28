@@ -22,20 +22,28 @@ gives the developers great confidence that the software will work as expected.
 - Unit for critical components (Supported by Jest)
 - Integration & E2E to ensure users experience what we build (Supported by
   Cypress)
-   - Test cases are written per page & interactions permitted
-   - Test cases should verify both non-logged in users and logged in users behaviors
+  - Test cases are written per page & interactions permitted
+  - Test cases should verify both non-logged in users and logged in users
+    behaviors
 - System and Acceptance Test (Supported by QA & real users)
 
 ### Test Artifacts
-For the purpose of accessment and documentation, we provide the following visual test artifacts (Recorded test runs for end to end tests, test summary statistics etc) as a proof of test execution and feedback. The details of the test cases can be found in the codebase as well.
+
+For the purpose of accessment and documentation, we provide the following visual
+test artifacts (Recorded test runs for end to end tests, test summary statistics
+etc) as a proof of test execution and feedback. The details of the test cases
+can be found in the codebase as well.
 
 #### Video recorded of a Cypress End-to-end test run:
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMIecsQFJH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Gif of automated test results of a Github Action run:
+
 ![gif](https://github.com/notawakestudio/NUSConnect-Docs/blob/master/static/img/githubActionArtifact.gif?raw=true)
 
 ---
+
 ## **Setup Guide**
 
 After running `yarn install`, you should be ready to start testing as all the
@@ -55,8 +63,8 @@ guide within the codebase. To run Eslnit, type in `yarn lint`.
 ## **Unit Test**
 
 We use Jest and React testing library to perform unit tests. We aimed to include
-unit tests to ensure low level but critical component logics are well tested. To run
-tests, type in `yarn test`.
+unit tests to ensure low level but critical component logics are well tested. To
+run tests, type in `yarn test`.
 
 ## **End to End Test**
 
@@ -84,21 +92,24 @@ find out more on how we perform testing with the help of Github Actions.
 As we are the sole developers of the entire application, we will function as QA
 engineers to ensure the system is functioning properly and fails gracefully.
 
-Test cases: 
+Test cases:
 
-- The website should be performant under reasonable load (500 users requesting for the
-webpages within a span of 3 seconds)
-   - Input: load the homepage using Jmeter with the above specifications.
-   - Expected behavior: respond code 200 and report showing pages are loaded successfully.
+- The website should be preformat under reasonable load (500 users requesting
+  for the webpages within a span of 3 seconds)
+  - Input: load the homepage using Jmeter with the above specifications.
+  - Expected behavior: respond code 200 and report showing pages are loaded
+    successfully.
 
 #TODO (More details to be added)
+
+Failure cases:
 
 ## **Acceptance Test**
 
 > Test the system to ensure it meets the user requirements.
 
 Given below are instructions to test the application manually. In fact, we will
-write the equivalent integration tests such that what's descriped below will
+write the equivalent integration tests such that what's described below will
 also be verified programmatically.
 
 This section also serves as a guide for a potential user to see what are the

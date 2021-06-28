@@ -11,7 +11,7 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 - Readme: What you are looking at is the Readme!
 - Our product: [NUSConnect](https://nus-connect.vercel.app/)
 - [Project Log](ProjectLog)
-- [Project Poster](https://raw.githubusercontent.com/notawakestudio/NUSConnect/main/public/NotAwake.png)
+- [Project Poster](https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png?raw=true)
 - [Project Video](https://www.youtube.com/watch?v=jXnn7Yx96TU)
 
 The following pages document in detail the different aspects of the project.
@@ -51,6 +51,58 @@ We hope to build something that is:
 - Well functioning
 - Well documented
 - Well tested
+
+## **Milestone 2 (Prototyping)**
+
+### Problems encountered
+
+Read our problems and issues that we faced along the way
+[here](ProjectLog#progress-in-a-few-words)
+
+### Core features developed
+
+Read about our core features and implementation techniques
+[here](DeveloperGuide#functionality)
+
+### Proposed plan for Milestone 3
+
+- Forum:
+  - We have this mostly completed, so it will just be UI updates and cleaning of
+    code. There are also some minor enhancements that have yet to be improved
+    upon:
+    - Statistics will be shown on the forum homepage
+    - Reply count will be accurately reflected for each post
+    - Edit reply input contents have to be cleared on submission
+- Quiz:
+  - We have this mostly completed, so it will just be UI updates and cleaning of
+    code. There are also some minor enhancements that have yet to be improved
+    upon:
+    - Add new question type: lab exercise
+    - Fix quiz like functionality
+- Profile & Dashboard:
+  - We have this mostly completed, so it will just be UI updates and cleaning of
+    code. There are also some minor enhancements that have yet to be improved
+    upon:
+    - Correct module info and allow enrollment of new modules
+    - Allow only admins to edit and manage module activity's
+    - Make new roles for users, teachers and admins
+- Wiki:
+  - We plan on integrating this with the forum so that they are all accessible
+    from one spot.
+  - Make wiki's functionality more user friendly.
+- Badges & Leveling:
+  - The badges have been made but the ability to get the badges after completion
+    of a quest has yet to be completed and that will be done in the coming
+    weeks.
+  - Scoreboard system will be touched up and users will be able to see their
+    standing amongst.
+  - Experience point system is created but has yet to be linked to the exp
+    system to the quest system.
+- Testing:
+  - We are currently in the midst of adding test cases and improving our test
+    coverage. Starting with end-to-end tests and acceptance testing first.
+
+View our timeline logs [here](Timeline)
 
 ## **Milestone 1 (Ideation)**
 
@@ -97,30 +149,6 @@ why we think different.
     for markdown etc...
 
 View implementation of core features [here](DeveloperGuide#quiz)
-
-### Proposed plan for next milestone
-
-- Forum:
-  - We have this mostly completed, so it will just be UI updates and cleaning of
-    code.
-- Quiz:
-  - We have this mostly completed, so it will just be UI updates and cleaning of
-    code.
-- Wiki:
-  - We plan on integrating this with the forum so that they are all accessible
-    from one spot.
-- Profile & Dashboard:
-  - We have yet to link the backend to the frontend for this area and will do so
-    within the coming weeks.
-- Badge:
-  - The badges have been made but the ability to get the badges after completion
-    of a quest has yet to be completed and that will be done in the coming
-    weeks.
-- Testing:
-  - We are currently in the mist of adding test cases and improving our test
-    coverage. Starting with end-to-end tests and acceptance testing first.
-
-View our timeline logs [here](Timeline)
 
 ### User Stories
 
