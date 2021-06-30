@@ -25,7 +25,7 @@ least, this is what we hope to achieve based on our own needs and knowledge:
 
 ## **Scenarios**
 
-Have you ever done something of the following:
+Have you ever done the following:
 
 1. Puzzled over a difficult question in past-year-papers/exercise and decided to
    google for something relevant
@@ -49,3 +49,5 @@ If you are not aware, the Coursemology website states that it is
 We however, are students who care about learning. We take pride in sharing our
 perspective and bring functionalities that might be closer to the hearts of
 fellow students. We literally walk our talk, among our target users.
+
+#TODO (More to be added, come back in milestone 3)

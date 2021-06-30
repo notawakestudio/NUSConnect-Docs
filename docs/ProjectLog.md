@@ -8,7 +8,7 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |
-| --------- | ----------------------------------------------- | ----------- | ----- |
+|-----------|-------------------------------------------------|-------------|-------|
 | 03/5/2021 | Initial team meeting                            | YL + JX     | 3     |
 | 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
@@ -42,10 +42,24 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 6    | UI improvements for quiz, forum and questions   | JX          | 5     |
 | week 6    | Documentation updates                           | YL + JX     | 5     |
 | 21/6/2021 | Week 7 Sprint team meeting                      | YL + JX     | 2     |
-|           | Week 8 Sprint team meeting                      | YL + JX     | 2     |
+| week 7    | Add tests for forum and quiz                    | YL          | 5     |
+| week 7    | Add notification functionality                  | YL          | 2     |
+| week 7    | Crate module and quest editing functionality    | JX          | 5     |
+| week 7    | Update user guide                               | JX          | 2     |
+| week 7    | Add make wiki from reply functionality          | YL          | 2     |
+| week 7    | Backend update to connect user to post          | YL          | 2     |
+| week 7    | UI improvements for quiz, forum and questions   | JX          | 5     |
+| week 7    | Milestone 2 submission prep (Video, Poster etc) | YL + JX     | 5     |
+| 28/6/2021 | Week 8 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 9 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 10 Sprint team meeting                     | YL + JX     | 2     |
 
+## **Overall Statistics**
+At the time of writing (30/6/2021), we 
+- closed 89 issues and 
+- made 359 commits on our code repository
+
+The details of issues (Bugs, Features, Tasks) can be found on the Github [issues page](https://github.com/notawakestudio/NUSConnect/issues)
 ## **Progress in a few words**
 
 Also noting down some thoughts along the way...
@@ -141,3 +155,24 @@ some improvements to our developer guide. Overall, we managed to clean up much
 of our code and improved the functionality and readability of our code.
 
 21/6/2021 - Jun Xiong
+
+### Week 7
+
+Last week was more hectic than expected as we were nearing milestone 2 submission. We wanted
+to make sure that the website is usable and without significant bugs. We also aimed to include
+the setup for gamification into the site so that we can share that with our testers and friends.
+However, the work to get all the bugs fixed while adding new functionalities was time consuming.
+And we had to update our documentations, posters and make a video for the submission. Overall I
+am glad that we managed to fulfill 80% of our intended tasks for the week. There was an interesting
+problem we encountered with user login that I would like to share. While developing the website locally,
+Jun Xiong and I usually used the same login credentials and found no issue with it. However, when we
+were testing the production website and Jun Xiong logged in with his Gmail account, the user system was
+broken and all logins to the website started to use Jun Xiong's profile instead. Even though the userId for
+the logins were different, somehow the user retrieved from the database stuck with one user account. After
+some investigation, I managed to locate the source of error, which was the session mechanism. The userId was
+a mutable variable that was attached to the user session. Somehow that information was not mutated properly
+when new users are logged in. I removed the mutating variable and looked through the documentation of the
+authentication service that we are using. I found out that the token that comes with the session object in fact contains the userId. Therefore, I no longer need to query the userId from Firebase and could use it directly from the session object. This problem only surfaced when we use the website in production and with
+multiple users. A great lesson about the importance of testing, including user testing on production.
+
+28/6/2021 - Yong Liang
