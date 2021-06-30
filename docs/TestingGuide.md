@@ -100,9 +100,66 @@ Test cases:
   - Expected behavior: respond code 200 and report showing pages are loaded
     successfully.
 
-#TODO (More details to be added)
+### **User error handling Tests**
 
-Failure cases:
+We have implemented many user focused end to end tests in the quiz section and
+have also set up expiations to prevent users from entering corrupted or unwanted
+data. The following examples apply for both the creation and editing of
+whichever type is in question.
+
+#### Create a post
+
+We used help of external libraries such as `Formik` and `Yup` to verify and test
+user inputted forms data. The current inputs are currently verified in the
+following manner:
+
+- title
+  - type must be one of the 2 existing tags and must be filled in.
+- tags
+  - tags must be filled in and there has to be at least one tag.
+- related question id (aka link question)
+  - related question id is optional and does not have to be filled.
+- content
+  - content field must be filled in.
+
+If any of the conditions are not met, a toast will show up on the top right of
+the screen and will prompt the user to fill in the necessary fields.
+
+#### Create a quiz
+
+We used help of external libraries such as `Formik` and `Yup` to verify and test
+user inputted forms data. The current inputs are currently verified in the
+following manner:
+
+- title
+  - type must contain a string and must be filled in.
+- week
+  - week must be a possible week and must be filled in.
+- tags
+  - tags are optional and no checks are run.
+- questions
+  - Must have at least one question selected to make the quiz and must be filled
+    in.
+
+If any of the conditions are not met, a toast will show up on the top right of
+the screen and will prompt the user to fill in the necessary fields.
+
+#### Create a question
+
+We used help of external libraries such as `Formik` and `Yup` to verify and test
+user inputted forms data. The current inputs are currently verified in the
+following manner:
+
+- type
+  - type must be one of the 2 existing tags and must be filled in.
+- question
+  - question must be a string and must be filled in.
+- answer
+  - answer field must have at least two answers and at least one option must be
+    marked as correct.
+
+If any of the conditions are not met, a toast will show up on the top right of
+the screen and will prompt the user to fill in the necessary fields.
 
 ## **Acceptance Test**
 
