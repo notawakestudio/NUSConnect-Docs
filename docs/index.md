@@ -14,6 +14,9 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 - [Project Poster](https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png?raw=true)
 - [Project Video](https://youtu.be/_XADzDJ645E)
 
+To learn more about acceptance testing and how you can help give us feedback
+read [this section](TestingGuide#acceptance-test)
+
 The following pages document in detail the different aspects of the project.
 
 They are also available at the sidebar. Take a look at them!
