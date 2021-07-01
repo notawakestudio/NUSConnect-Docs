@@ -176,3 +176,22 @@ View our [project log](ProjectLog) to see what's been done.
 - Documentation:
   - Update testing guide
   - Update developer guide
+
+#### v1.3 - Dashboard, Module and User
+
+- Quiz:
+  - UI improvements
+  - Get the relevant post from each question.
+- Forum:
+  - UI improvements
+  - Bug fixes
+- Dashboard:
+  - New dashboard look
+  - Ability to editing module schedule and add quizzes
+- Profile:
+  - Notification for completion of Tasks
+- Documentation:
+  - Update testing guide with system testing, end to end testing, load testing
+    and acceptance testing
+  - Added logging activities and updated readme for milestone 2
+  - worked on poster and video for submission
