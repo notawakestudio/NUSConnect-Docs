@@ -13,9 +13,12 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
 | Week 1    | Set up Quiz, Forum Dashboard                    | YL + JX     | 20    |
+| week 1    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | 17/5/2021 | Week 2 Sprint team meeting                      | YL + JX     | 2     |
+| week 2    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | Week 2    | Set up Login authentication                     | JX          | 5     |
 | 24/5/2021 | Week 3 Sprint team meeting                      | YL + JX     | 2     |
+| week 3    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | Week 3    | Set up & migrate documentation site             | YL          | 5     |
 | Week 3    | Set up firebase connection                      | JX          | 5     |
 | Week 3    | UI improvements and responsive design for forum | JX          | 5     |
@@ -24,11 +27,13 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 3    | Video and milestone 1 docs preparation          | YL + JX     | 3     |
 | week 3    | Discuss backend data formats and arrangements   | YL + JX     | 3     |
 | 31/5/2021 | Week 4 Sprint team meeting                      | YL + JX     | 2     |
+| week 4    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | Week 4    | Adding tags to forum posts                      | YL          | 2     |
 | Week 4    | Include Cypress as E2E testing tool             | YL          | 5     |
 | Week 4    | Fixed firebase logic and backend                | YL          | 5     |
 | Week 4    | Improved creation page for quiz and question    | JX          | 5     |
 | 07/6/2021 | Week 5 Sprint team meeting                      | YL + JX     | 2     |
+| week 5    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | Week 5    | Fix fetch & update of forum data                | YL          | 5     |
 | Week 5    | Update landing page for forum                   | JX          | 5     |
 | Week 5    | Update UI of Quiz functionality                 | JX          | 5     |
@@ -36,12 +41,14 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 5    | Create scoreboard page                          | YL          | 3     |
 | week 5    | Update profile page to display module info      | YL + JX     | 3     |
 | 14/6/2021 | Week 6 Sprint team meeting                      | YL + JX     | 2     |
+| week 6    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | week 6    | Create user backend                             | YL          | 5     |
 | week 6    | Crate forum post from question                  | JX          | 5     |
 | week 6    | Mark posts as wiki and link posts to question   | YL          | 5     |
 | week 6    | UI improvements for quiz, forum and questions   | JX          | 5     |
 | week 6    | Documentation updates                           | YL + JX     | 5     |
 | 21/6/2021 | Week 7 Sprint team meeting                      | YL + JX     | 2     |
+| week 7    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
 | week 7    | Add tests for forum and quiz                    | YL          | 5     |
 | week 7    | Add notification functionality                  | YL          | 2     |
 | week 7    | Crate module and quest editing functionality    | JX          | 5     |
@@ -51,7 +58,16 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 7    | UI improvements for quiz, forum and questions   | JX          | 5     |
 | week 7    | Milestone 2 submission prep (Video, Poster etc) | YL + JX     | 5     |
 | 28/6/2021 | Week 8 Sprint team meeting                      | YL + JX     | 2     |
-|           | Week 9 Sprint team meeting                      | YL + JX     | 2     |
+| week 8    | Undocumented coding (UI and Bug fixes)          | YL + JX     | 10    |
+| week 8    | Team review and feedback                        | YL + JX     | 2     |
+| week 8    | Scoreboard and badges UI and fixes              | YL          | 5     |
+| week 8    | Backend logic connection for Module and quest   | YL          | 5     |
+| week 8    | Reformating UI for Quiz, Question and others    | JX          | 5     |
+| week 8    | Quest creation functionality                    | JX          | 5     |
+| week 8    | Weekly announcement filtering and logic         | JX          | 5     |
+| week 8    | Weekly announcement filtering and logic         | JX          | 5     |
+| week 8    | Various bug fixes and other refactoring         | YL + JX     | 5     |
+| 5/7/2021  | Week 9 Sprint team meeting                      | YL + JX     | 2     |
 |           | Week 10 Sprint team meeting                     | YL + JX     | 2     |
 
 ## **Overall Statistics**
