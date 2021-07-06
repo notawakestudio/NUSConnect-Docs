@@ -92,7 +92,9 @@ find out more on how we perform testing with the help of Github Actions.
 As we are the sole developers of the entire application, we will function as QA
 engineers to ensure the system is functioning properly and fails gracefully.
 
-Test cases:
+### General tests
+
+#### Website requirements
 
 - The website should be preformat under reasonable load (500 users requesting
   for the webpages within a span of 3 seconds)
@@ -100,7 +102,7 @@ Test cases:
   - Expected behavior: respond code 200 and report showing pages are loaded
     successfully.
 
-### **User error handling Tests**
+### User input error handling tests
 
 We have implemented many user focused end to end tests in the quiz section and
 have also set up expiations to prevent users from entering corrupted or unwanted
