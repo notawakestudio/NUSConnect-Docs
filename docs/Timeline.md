@@ -194,4 +194,26 @@ View our [project log](ProjectLog) to see what's been done.
   - Update testing guide with system testing, end to end testing, load testing
     and acceptance testing
   - Added logging activities and updated readme for milestone 2
-  - worked on poster and video for submission
+  - Worked on poster and video for milestone 2 submission
+
+#### v2.0 - Announcements, Quests and Redesign
+
+- Dashboard:
+  - UI improvements
+  - Create and edit announcement feature for admin to post updates
+  - Create and edit quests for admin to post new quests
+- Quiz:
+  - Create a quiz and create question UI overhaul
+  - Show correct userID and user profile picture
+- Quest:
+  - Bug fixes and link to the database
+- Profile:
+  - Show list of modules
+  - Scoreboard UI improvements
+  - Badges UI improvements
+- Documentation:
+  - Add more system tests
+- Backend:
+  - Linking of announcement, quest, exp and modules.
+- Milestone 2:
+  - Give peer review for other teams
