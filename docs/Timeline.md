@@ -126,6 +126,7 @@ View our [project log](ProjectLog) to see what's been done.
   - Completed milestone 1
   - Made video update
 
+### 2nd month (Beta)
 #### v1.0 - Backend and Functionality updates
 
 - Quiz:

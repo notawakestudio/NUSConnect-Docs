@@ -68,7 +68,12 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 8    | Weekly announcement filtering and logic         | JX          | 5     |
 | week 8    | Various bug fixes and other refactoring         | YL + JX     | 5     |
 | 5/7/2021  | Week 9 Sprint team meeting                      | YL + JX     | 2     |
-|           | Week 10 Sprint team meeting                     | YL + JX     | 2     |
+| week 9    | Forum post ordered by week                      | JX          | 2     |
+| week 9    | Forum UI update                                 | JX          | 2     |
+| week 9    | Fix badge display issues                        | YL          | 4     |
+| week 9    | Search and sorting of Quiz                      | YL          | 3     |
+| week 9    | Developer guide update                          | JX          | 5     |
+| 12/7/2021 | Week 10 Sprint team meeting                     | YL + JX     | 2     |
 
 ## **Overall Statistics**
 
@@ -222,3 +227,15 @@ functionality to the application as a whole and if we can keep up the pace, our
 app will be very complete by the end of orbital.
 
 5/7/2021 - Jun Xiong
+
+### Week 9
+
+As we are nearing the end of the development cycle, the main focus of the week was
+to complete any remaining features and make sure the use cases are supported. There 
+were some details that we took the time to ensure they function properly. These include
+search and sort of quizzes as well as another round of UI improvements. We also added 
+more content to our documentation that explain the design decisions and inner workings 
+of the front-end components. Along the way, we fixed some bugs related to mobile view and
+resolved issues with regards to forum posts' order by week.
+
+12/7/2021 - Yong Liang
