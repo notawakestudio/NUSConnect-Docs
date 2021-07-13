@@ -388,3 +388,16 @@ interactions.
    3. Test case 1: Like a quiz or reply by clicking on the like icon.
    4. Expected case 1: A success toast is shown in the center bottom of the
       screen and the like button turns blue.
+
+## **Real User feedback**
+We would like to thank our friends and fellow schoolmates for providing valuable feedback.
+Here we extracted out some comments given by the users:
+
+> Yes we feel that the team has accomplished the necessary requirements. The product seems very complete at this stage...
+- Team NoteWorthy
+
+> ...have a good functioning prototype.
+- Team xiaoming eats yanyan
+
+> The team has done well in using various testing methods including automated testing.
+- Project advisor 

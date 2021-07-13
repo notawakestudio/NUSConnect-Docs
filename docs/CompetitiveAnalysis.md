@@ -28,19 +28,19 @@ least, this is what we hope to achieve based on our own needs and knowledge:
 Have you ever done the following:
 
 1. Puzzled over a difficult question in past-year-papers/exercise and decided to
-   google for something relevant
+   google for something relevant.
 
 ## **Why Not xxx & Why Us**
 
 Here's our attempt to address the elephants in the room.
 
-### **Why Not LumiNUS & Why Us**
+### Why Not LumiNUS
 
 We improve on many of LumiNUS's core features such as quiz taking and forum post
 viewing. We also make it easy to use our app as the navigation between the pages
 is much smoother saving time and improving efficiency.
 
-### **Why Not Coursemology & Why Us**
+### Why Not Coursemology
 
 If you are not aware, the Coursemology website states that it is
 
@@ -50,4 +50,8 @@ We however, are students who care about learning. We take pride in sharing our
 perspective and bring functionalities that might be closer to the hearts of
 fellow students. We literally walk our talk, among our target users.
 
-#TODO (More to be added, come back in milestone 3)
+### Why Not Piazza
+
+We acknowledge that Piazza has a great forum functionality that support questions 
+and answers among students. However, our platform includes integration with quiz
+functionality and elements of gamification.

@@ -74,13 +74,21 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 9    | Search and sorting of Quiz                      | YL          | 3     |
 | week 9    | Developer guide update                          | JX          | 5     |
 | 12/7/2021 | Week 10 Sprint team meeting                     | YL + JX     | 2     |
+| 19/7/2021 | Week 11 Sprint team meeting                     | YL + JX     | 2     |
+
+
 
 ## **Overall Statistics**
+
+At the time of writing (13/7/2021), we
+
+- closed 110 issues and
+- made 444 commits in our code repository
 
 At the time of writing (30/6/2021), we
 
 - closed 89 issues and
-- made 359 commits on our code repository
+- made 359 commits in our code repository
 
 The details of issues (Bugs, Features, Tasks) can be found on the Github
 [issues page](https://github.com/notawakestudio/NUSConnect/issues)

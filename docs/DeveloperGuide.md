@@ -787,3 +787,4 @@ Please checkout our [workflow guide](WorkflowGuide.md)
 | answer   | a possible option for a question          |
 | forum    | a collection of posts by users            |
 | post     | a way of communication between users      |
+| badge    | a token of accomplishment                 |
