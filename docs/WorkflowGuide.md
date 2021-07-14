@@ -71,6 +71,9 @@ Test
 
 - [x] Integrate Cypress
 
+
+### Weekly Release
+A proper release is done by a core team member every week to conclude the work done in the previous week. In the release description, changes made to the existing codebase will be mentioned.
 ## **Branching Workflow**
 
 The team will adopt the

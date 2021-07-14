@@ -132,3 +132,17 @@ effective in keeping a project alive. However, we decided to keep our website
 free of charge for the initial launch and for as long as possible to support
 learning activities. This is possible becaues we stand on the shoulders of
 giants (that are kind enough to provide generous resources at minimal costs).
+
+Q: How does it work with the modules that I am taking in NUS?
+
+A: We support a list of modules that are direct mapping of NUS modules. Take CS2030S
+as an example, students who are going to take the module in the upcoming semester are
+welcome to join the same module in the website and use the study resources provided.
+Accordingly, our forum and quiz functions will be organized into weeks such that students
+can find the relevant information for that particular module in that particular week.
+
+Q: What if the module that I attend is not on the website?
+
+A: We are open to support more modules and are ready to do so! If there are any modules that
+you would like to see, please contact us directly. We are also keen to assign admin roles to
+students who are interested to manage the module.
