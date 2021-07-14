@@ -127,6 +127,7 @@ View our [project log](ProjectLog) to see what's been done.
   - Made video update
 
 ### 2nd month (Beta)
+
 #### v1.0 - Backend and Functionality updates
 
 - Quiz:
@@ -196,6 +197,8 @@ View our [project log](ProjectLog) to see what's been done.
     and acceptance testing
   - Added logging activities and updated readme for milestone 2
   - Worked on poster and video for milestone 2 submission
+
+### 3rd month (Pre-release)
 
 #### v2.0 - Announcements, Quests and Redesign
 
