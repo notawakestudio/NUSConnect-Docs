@@ -217,3 +217,23 @@ View our [project log](ProjectLog) to see what's been done.
   - Linking of announcement, quest, exp and modules.
 - Milestone 2:
   - Give peer review for other teams
+
+#### v2.1 - Final features and functionality
+
+- Forum:
+  - UI redesign
+  - Added accordions and week sorting
+- Quiz:
+  - New question type
+  - Sorting and searching for quiz
+- Module:
+  - Join module
+  - Badge display
+  - Role and privilege editing
+- Documentation:
+  - User Roles
+  - Module layout
+  - User input and form handling
+- General changes:
+  - Bug fixes and code cleanup
+  - Refactoring of code
