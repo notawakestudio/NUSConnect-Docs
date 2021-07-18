@@ -20,6 +20,8 @@ gives the developers great confidence that the software will work as expected.
 
 - Static is a must (Supported by TypeScript & IDE integrations)
 - Unit for critical components (Supported by Jest)
+  - Individual component rendering
+  - Function correctness
 - Integration & E2E to ensure users experience what we build (Supported by
   Cypress)
   - Test cases are written per page & interactions permitted
@@ -32,13 +34,27 @@ gives the developers great confidence that the software will work as expected.
 For the purpose of accessment and documentation, we provide the following visual
 test artifacts (Recorded test runs for end to end tests, test summary statistics
 etc) as a proof of test execution and feedback. The details of the test cases
-can be found in the codebase as well.
+can be found in the folder [`cypress`](https://github.com/notawakestudio/NUSConnect/tree/main/cypress) and [`tests`](https://github.com/notawakestudio/NUSConnect/tree/main/tests) respectively.
 
-#### Video recorded of a Cypress End-to-end test run:
+#### Screenshot of Unit Test Result
+![test case result](https://github.com/notawakestudio/NUSConnect-Docs/blob/master/static/img/unitTestResult.jpg?raw=true)
+
+#### Video recorded of a Cypress End-to-end test run @ milestone 3
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pRVYSKeprzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Gif of automated test results of a Github Action run @ milestone 3
+
+![gif](https://github.com/notawakestudio/NUSConnect-Docs/blob/master/static/img/e2eRun2.gif?raw=true)
+
+---
+
+#### Past artifacts
+#### Video recorded of a Cypress End-to-end test run @ milestone 2
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMIecsQFJH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Gif of automated test results of a Github Action run:
+#### Gif of automated test results of a Github Action run @ milestone 2
 
 ![gif](https://github.com/notawakestudio/NUSConnect-Docs/blob/master/static/img/githubActionArtifact.gif?raw=true)
 
@@ -65,6 +81,10 @@ guide within the codebase. To run Eslnit, type in `yarn lint`.
 We use Jest and React testing library to perform unit tests. We aimed to include
 unit tests to ensure low level but critical component logics are well tested. To
 run tests, type in `yarn test`.
+
+With reference to [Testing Recipes](https://reactjs.org/docs/testing-recipes.html), our focus on front-end unit tests is on validating component rendering and function
+correctness. For example in `util.test.js`, the written tests cases verify the output of utility methods that involved datetime and notifications are as expected.
+In `index.test.js`, the test cases verify that rendering of individual components are successful.
 
 ## **End to End Test**
 
