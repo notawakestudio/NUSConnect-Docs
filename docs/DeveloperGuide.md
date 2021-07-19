@@ -191,11 +191,12 @@ the social login options provided. Our firebase backend will keep track of the
 user session as well as the unique user ID. For a first time user, the user ID
 will be retrieved from firebase and used to populate the user database over at
 Deta base, our main backend database. All relevant information of the user will
-be saved. One such example includes system generated messages that will be shown to the user as well as all module related data.
+be saved. One such example includes system generated messages that will be shown
+to the user as well as all module related data.
 
 The user data structure is as follows:
 
-```json
+```ts
 {
   id: string
   modules: Module[]
@@ -210,10 +211,16 @@ The user data structure is as follows:
 ```
 
 The available roles of a user include:
+
 - Admin
 - Student
 
-All users will be given a role of "Student" initially. This allows for all required actions that can be taken, such as taking a quiz, making a post in the forum, or seeing his/her progress at the dashboard. As an "Admin", the user will be granted certain rights that might be required to maintain the website. Examples as follows:
+All users will be given a role of "Student" initially. This allows for all
+required actions that can be taken, such as taking a quiz, making a post in the
+forum, or seeing his/her progress at the dashboard. As an "Admin", the user will
+be granted certain rights that might be required to maintain the website.
+Examples as follows:
+
 - Ability to delete posts/replies that belong to anyone
 - Ability to create new module
 - Ability to make announcements and quests
@@ -685,10 +692,14 @@ Google's developers pages and put them in their respective fields.
 
 ### **Module**
 
-A module is equivalent to any course of study. We organize information into different modules as a direct mapping of the modular system in universities such as NUS. However, there is no restriction in creating an artificial course that may not exist in real life.
+A module is equivalent to any course of study. We organize information into
+different modules as a direct mapping of the modular system in universities such
+as NUS. However, there is no restriction in creating an artificial course that
+may not exist in real life.
 
 The shape of module data is as follows:
-```json
+
+```ts
 {
   id: string
   title: string
@@ -702,9 +713,14 @@ The shape of module data is as follows:
 }
 ```
 
-There is a bi-directional relationship between modules and users, where a module keeps a list of userIds of enrolled users and each user keeps a list of enrolled modules as well. This means care must be taken to ensure that the information between a module and a user is always in sync.
+There is a bi-directional relationship between modules and users, where a module
+keeps a list of userIds of enrolled users and each user keeps a list of enrolled
+modules as well. This means care must be taken to ensure that the information
+between a module and a user is always in sync.
 
-Though not planned to actively support all modules in NUS at the moment, the module system we built should be able to expand and allow multiple modules to be run concurrently.
+Though not planned to actively support all modules in NUS at the moment, the
+module system we built should be able to expand and allow multiple modules to be
+run concurrently.
 
 ---
 
