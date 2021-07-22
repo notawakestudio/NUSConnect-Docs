@@ -74,9 +74,13 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 9    | Search and sorting of Quiz                      | YL          | 3     |
 | week 9    | Developer guide update                          | JX          | 5     |
 | 12/7/2021 | Week 10 Sprint team meeting                     | YL + JX     | 2     |
+| week 9    | General coding and bug fixes                    | YL + JX     | 10    |
+| week 9    | Adding new question type                        | JX          | 5     |
+| week 9    | UI improvements and refactoring                 | JX          | 5     |
+| week 9    | Fixing backend issues                           | YL          | 5     |
+| week 9    | Adding new test cases                           | YL          | 10    |
+| week 9    | Updating documentation                          | YL + JX     | 5     |
 | 19/7/2021 | Week 11 Sprint team meeting                     | YL + JX     | 2     |
-
-
 
 ## **Overall Statistics**
 
@@ -238,12 +242,28 @@ app will be very complete by the end of orbital.
 
 ### Week 9
 
-As we are nearing the end of the development cycle, the main focus of the week was
-to complete any remaining features and make sure the use cases are supported. There 
-were some details that we took the time to ensure they function properly. These include
-search and sort of quizzes as well as another round of UI improvements. We also added 
-more content to our documentation that explain the design decisions and inner workings 
-of the front-end components. Along the way, we fixed some bugs related to mobile view and
-resolved issues with regards to forum posts' order by week.
+As we are nearing the end of the development cycle, the main focus of the week
+was to complete any remaining features and make sure the use cases are
+supported. There were some details that we took the time to ensure they function
+properly. These include search and sort of quizzes as well as another round of
+UI improvements. We also added more content to our documentation that explain
+the design decisions and inner workings of the front-end components. Along the
+way, we fixed some bugs related to mobile view and resolved issues with regards
+to forum posts' order by week.
 
 12/7/2021 - Yong Liang
+
+### Week 10
+
+Since this is our second last week working on this project, we have started
+moving from adding new features to bug fixing and improving existing features.
+Our main focus is getting our test coverage up and improving our documentation.
+Other than these, we also wanted to help improve the UX of the user and we can
+achieve that by implementing features that users requested for in their demo
+run. Working on these tasks we can ensure that our app will be ready for the
+final production date and be fully functional with minimal bugs. We are also
+working to refactor the code to improve readability and improve performance. All
+in all, we feel that we are on pace to be done with our core features in time
+for our main release.
+
+19/7/2021 - Jun Xiong

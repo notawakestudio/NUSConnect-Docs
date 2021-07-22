@@ -241,3 +241,11 @@ View our [project log](ProjectLog) to see what's been done.
 - General changes:
   - Bug fixes and code cleanup
   - Refactoring of code
+
+#### v2.2 - Bug fixing and documentation
+
+- General bug fixes
+- Overall UI improvements
+- Test case and test coverage increase
+- More comprehensive documentation
+- New quiz type
