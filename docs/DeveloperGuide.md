@@ -6,28 +6,7 @@ title: "Developer Guide"
 
 ## **Introduction**
 
-Frustrated with the lack of material and information available from previous
-semesters and the lack of functionality in the official learning management
-system LumiNUS, we set out to design a system where students can learn their
-module content in a more engaging way.
-
-With our background as teaching assistants for the module CS2030(Programming
-methodology II), we have a burning desire to help our students strive for
-perfection. We know that learning takes time and continuous effort, but making
-the process of learning fun and enjoyable will greatly improve students’
-performance.
-
-We hope that our project becomes a source of external motivating factors that
-nudge students to learn the materials by heart. We want students to feel good
-doing assignments, and be rewarded with virtual points and record their attempts
-for further analysis. We also want students to try alternative ways of learning,
-via questions and answers in a forum, via quizzes that are self generated or
-created by the TAs, and via consolidating their learning into articles to be
-shared with other module students in the wiki.
-
-If you think: "Yet another contrived combination of Luminous and Coursemology",
-please read our [Competitive Analysis](CompetitiveAnalysis) section to find out
-why we think different.
+Keen to find out how the application works? Here's all you need to know before contributing.
 
 ---
 
@@ -788,3 +767,4 @@ Please checkout our [workflow guide](WorkflowGuide.md)
 | forum    | a collection of posts by users            |
 | post     | a way of communication between users      |
 | badge    | a token of accomplishment                 |
+| EXP      | experience points gained from doing quests|

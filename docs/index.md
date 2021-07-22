@@ -17,9 +17,8 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 To learn more about acceptance testing and how you can help give us feedback
 read [this section](TestingGuide#acceptance-test)
 
-The following pages document in detail the different aspects of the project.
-
-They are also available at the sidebar. Take a look at them!
+The following pages are for different aspects of the project.
+You may navigate to these pages via the sidebar as well. As much as we want our code to speak for ourselves, here are the evidence of our software engineering practices and our efforts.
 
 - [User Guide](UserGuide)
 - [Developer Guide](DeveloperGuide)
@@ -31,7 +30,7 @@ They are also available at the sidebar. Take a look at them!
 - [ProjectLog](ProjectLog)
 - [Competitive Analysis](CompetitiveAnalysis)
 
-## **Level of achievement**
+## **Level of Achievement**
 
 Officially: Artemis
 
@@ -164,16 +163,3 @@ multiple design mockups in Figma and also aimed for a minimalistic look for a
 start.
 
 Refer to our timeline for detailed [plan](Timeline)
-
-## **Note to readers**
-
-As we are still in the process of building the application, some parts of the
-documentation are yet to be finalized. However, please feel free to look around
-and see what we have documented so far :)
-
-## **Internal Resources**
-
-- Designs:
-  [Figma](https://www.figma.com/file/G0ajAThyYnljoAg9M25ahR/Not-Awake-team-library?node-id=0%3A1)
-- Documents:
-  [Google docs](https://docs.google.com/document/d/1gVK1er13XGxM9K4T8hWutoqQm9WUkyBN_oKn4uAAlRk/edit)

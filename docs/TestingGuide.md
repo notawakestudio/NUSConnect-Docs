@@ -277,7 +277,7 @@ interactions.
 3. Visit Scoreboard
 
    1. Visit
-      [https://nus-connect.vercel.app/scoreboard](https://nus-connect.vercel.app/scoreboard).
+      [https://nus-connect.vercel.app/profile/scoreboard](https://nus-connect.vercel.app/profile/scoreboard).
    2. Expected: The user sees a mock scoreboard that will later be a live record
       of the experience points of learners within the same module.
 

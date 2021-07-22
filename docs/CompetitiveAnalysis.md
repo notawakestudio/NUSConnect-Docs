@@ -22,14 +22,6 @@ least, this is what we hope to achieve based on our own needs and knowledge:
   these questions.
 - A way to motivate students to participate in creation of exercise questions so
   that they can practice them before the exams.
-
-## **Scenarios**
-
-Have you ever done the following:
-
-1. Puzzled over a difficult question in past-year-papers/exercise and decided to
-   google for something relevant.
-
 ## **Why Not xxx & Why Us**
 
 Here's our attempt to address the elephants in the room.

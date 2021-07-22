@@ -31,10 +31,9 @@ why we think different.
 
 ## **Quickstart**
 
-Login with a variety of options (Google, Github, etc) and start your journey
-today!
+For the adventurous, just login with a variety of options (Google, Github, etc) and start your journey today!
 
-## **Pages and Functionalities**
+## **Overview**
 
 While our dream is to make learning fun for every student regardless of module,
 we hope to first create a pilot platform where targeted students studying
@@ -108,6 +107,95 @@ Leveling system where the user can do quests to get more experience points.
 - Be the goto place for students when they need information or want to do
   anything related to the module.
 
+## **Pages and Functionalities**
+
+### 1. General
+
+#### 1.1 Landing page 
+- **URL**: https://nus-connect.vercel.app/
+- **Description**: Showcasing the idea behind the project and introduce the main features.
+
+#### 1.2 Login page 
+- **URL**: https://nus-connect.vercel.app/login
+- **Description**: To login via Github or Google account. Logged in users enjoy the ability to have a profile and interact on the website.
+
+#### 1.3 Logout page 
+- **URL**: https://nus-connect.vercel.app/login
+- **Description**: After logged in, visiting the login page will provide the option to logout. Afterwards users may choose to login with a separate account.
+
+#### 1.4 404 page 
+- **URL**(example): https://nus-connect.vercel.app/404
+- **Description**: The 404 page will also show up for all URL addresses that are unaccounted for. Users will be notified that they may have keyed in a wrong URL and be provided with a way to navigate back to the home page. Warning: you will be greeted by a cat :)
+
+### 2. Personal
+
+#### 2.1 Dashboard
+- **URL**: https://nus-connect.vercel.app/dashboard
+- **Description**: A place to see all the information about users' current progress for the selected module and also the module related information. The module information includes announcements and quests. For admin users, options will be available to modify announcements or edit the quests.
+
+#### 2.2 Profile
+- **URL**: https://nus-connect.vercel.app/profile
+- **Description**: Users will be able to view details of their account. There is also the ability to edit users' display name. They may also view their enrolled module information.
+
+#### 2.3 Inbox
+- **URL**: https://nus-connect.vercel.app/profile/inbox
+- **Description**: All system notifications will be available here. Users will be
+notified about their on-site activities. Users will be able to mark messages as read.
+
+#### 2.4 Badges
+- **URL**: https://nus-connect.vercel.app/profile/badges
+- **Description**: All available badges will be displayed here. Each badge will have its icon, name and the description. On the top section, users will be able to view their attained badges.
+
+#### 2.5 Scoreboard
+- **URL**: https://nus-connect.vercel.app/profile/scoreboard
+- **Description**: Scoreboard showcases all members of a module, ranking from the highest experience points to the lowest. This is the place to see one's involvement level within each module.
+
+### 3. Module
+
+#### 3.1 Module
+- **URL**: https://nus-connect.vercel.app/module
+- **Description**: A list of all currently supported modules on the platform. This is the place to join the module.
+
+#### 3.2 New Module
+- **URL**: https://nus-connect.vercel.app/module/new-module
+- **Description**: A quick form for admin users to create a new module
+
+### 4. Quiz
+
+#### 4.1 Quiz Home
+- **URL**: https://nus-connect.vercel.app/quiz
+- **Description**: Displaying a full list of available quizzes. There are also sorting and filtering options for users to easily select a quiz.
+
+#### 4.2 Individual Quiz
+- **URL**(example): https://nus-connect.vercel.app/quiz/qff1PXQNLrFUgjI3mycVa
+- **Description**: The questions within a quiz will be shown and there will be options to review or retry the quiz once done.
+#### 4.3 Make New Question
+- **URL**: https://nus-connect.vercel.app/quiz/make-question
+- **Description**: Users may submit a new question. These questions can later be selected to make up a new quiz. References to the questions can be made when discussing them within the forum. 
+
+#### 4.4 Make New Quiz
+- **URL**: https://nus-connect.vercel.app/quiz/make-quiz
+- **Description**: Users may make a new quiz that can be attempted by others.
+
+### 5. Forum
+#### 5.1 Forum home
+- **URL**: https://nus-connect.vercel.app/forum
+- **Description**: The home page of the forum. Users may view and react to the posts on the forum. The toolbar on top will help users navigate the forum more effectively.
+
+#### 5.2 Make New Post
+- **URL**: https://nus-connect.vercel.app/forum/create-post
+- **Description**: Users may post something related to the module. The support of Markdown syntax allows users to make quick but formatted posts.
+
+#### 5.3 Make New Reply
+- **URL**(example): https://nus-connect.vercel.app/forum/gpQJb7VsY6zS3Hc8L54nv
+- **Description**: When viewing a particular post, logged in users can reply to the post.
+
+#### 5.4 Individual Post
+- **URL**(example): https://nus-connect.vercel.app/forum/gpQJb7VsY6zS3Hc8L54nv
+- **Description**: Users may view and react to posts on the forum. The post owner will have the ability to edit the post. Other may press the like button to show their support.
+
+
+
 ## **Moving forward**
 
 Finally, our final goal is to branch this out to every CS module and then to
@@ -115,6 +203,9 @@ every NUS module and become the “forum” for NUS where everyone can come to v
 content and interact with peers taking the same mod. We hope to start small but
 grow big as we implement more features and make taking a new mod become a better
 experience.
+
+We also realized that as much as we would like to implement all the features that
+are beneficial and great to have, we did not manage to get to all of them due to the lack of time. For future improvements and new features, we will continue to keep track of them in our Github issues page and work on them in the coming months.
 
 ## **Frequently Asked Questions (FAQ)**
 
