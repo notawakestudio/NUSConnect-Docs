@@ -17,8 +17,10 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 To learn more about acceptance testing and how you can help give us feedback
 read [this section](TestingGuide#acceptance-test)
 
-The following pages are for different aspects of the project.
-You may navigate to these pages via the sidebar as well. As much as we want our code to speak for ourselves, here are the evidence of our software engineering practices and our efforts.
+The following pages are for different aspects of the project. You may navigate
+to these pages via the sidebar as well. As much as we want our code to speak for
+ourselves, here are the evidence of our software engineering practices and our
+efforts.
 
 - [User Guide](UserGuide)
 - [Developer Guide](DeveloperGuide)
@@ -53,6 +55,30 @@ We hope to build something that is:
 - Well functioning
 - Well documented
 - Well tested
+
+## **Milestone 3 (Refinement)**
+
+Milestone 3 (Refinement): include bugs squashed, edge features developed,
+problems encountered, and user testing
+
+### Bugs squashed
+
+View our bugs squashed
+[here](https://github.com/notawakestudio/NUSConnect/issues?q=is%3Aissue+label%3Atype.Bug+is%3Aclosed)
+
+### User Testing
+
+Take a look at our user testing guide [here](TestingGuide#acceptance-test)
+
+### Edge Features Developed
+
+Read about our edge features and implementation techniques
+[here](DeveloperGuide#functionality)
+
+### Problems encountered
+
+Read our problems and issues that we faced along the way
+[here](ProjectLog#progress-in-a-few-words)
 
 ## **Milestone 2 (Prototyping)**
 
