@@ -8,7 +8,7 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |
-| --------- | ----------------------------------------------- | ----------- | ----- |
+|-----------|-------------------------------------------------|-------------|-------|
 | 03/5/2021 | Initial team meeting                            | YL + JX     | 3     |
 | 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
@@ -65,7 +65,6 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 8    | Reformating UI for Quiz, Question and others    | JX          | 5     |
 | week 8    | Quest creation functionality                    | JX          | 5     |
 | week 8    | Weekly announcement filtering and logic         | JX          | 5     |
-| week 8    | Weekly announcement filtering and logic         | JX          | 5     |
 | week 8    | Various bug fixes and other refactoring         | YL + JX     | 5     |
 | 5/7/2021  | Week 9 Sprint team meeting                      | YL + JX     | 2     |
 | week 9    | Forum post ordered by week                      | JX          | 2     |
@@ -74,15 +73,36 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 | week 9    | Search and sorting of Quiz                      | YL          | 3     |
 | week 9    | Developer guide update                          | JX          | 5     |
 | 12/7/2021 | Week 10 Sprint team meeting                     | YL + JX     | 2     |
-| week 9    | General coding and bug fixes                    | YL + JX     | 10    |
-| week 9    | Adding new question type                        | JX          | 5     |
-| week 9    | UI improvements and refactoring                 | JX          | 5     |
-| week 9    | Fixing backend issues                           | YL          | 5     |
-| week 9    | Adding new test cases                           | YL          | 10    |
-| week 9    | Updating documentation                          | YL + JX     | 5     |
+| week 10   | General coding and bug fixes                    | YL + JX     | 10    |
+| week 10   | Adding new question type                        | JX          | 5     |
+| week 10   | UI improvements and refactoring                 | JX          | 5     |
+| week 10   | Fixing backend issues                           | YL          | 5     |
+| week 10   | Adding new test cases                           | YL          | 6     |
+| week 10   | Updating documentation                          | YL + JX     | 5     |
 | 19/7/2021 | Week 11 Sprint team meeting                     | YL + JX     | 2     |
+| week 11   | General bug fixes                               | YL + JX     | 6     |
+| week 11   | Functional refactoring                          | JX          | 5     |
+| week 11   | Update developer guide                          | JX          | 5     |
+| week 11   | Fix backend module switching issues             | YL          | 5     |
+| week 11   | Fix quest update issues                         | YL          | 5     |
+| week 11   | Update user guide                               | YL          | 2     |
+| week 11   | Fix unexpected UI issues                        | JX          | 2     |
+| week 11   | Updating documentation                          | YL + JX     | 5     |
+| week 11   | Milestone 3 preparations                        | YL + JX     | 5     |
+| 25/7/2021 | Final product meeting                           | YL + JX     | 2     |
+
+Total hours: 396 hours
+
+Average per student:
+- Jun Xiong: 198 hours
+- Yong Liang: 198 hours
 
 ## **Overall Statistics**
+
+At the time of writing (25/7/2021), we
+
+- closed 123 issues and
+- made 497 commits in our code repository
 
 At the time of writing (13/7/2021), we
 
@@ -267,3 +287,9 @@ in all, we feel that we are on pace to be done with our core features in time
 for our main release.
 
 19/7/2021 - Jun Xiong
+
+### Week 11
+
+Considering this the last week before submission, we took this week seriously and made a ton of updates to ensure all noticible issues are resolved. The amount of work was intense because of the changes we made to add a module context to all the interactions within the site. Also because this is the final 10%, the efforts taken to make even the slightest changes required careful attention. We are lucky enough to have a test suite running and that had major impact in speeding up the review process and ensuring that the changes made would not create regressions. I honest think that all students who persisted and reached milestone 3, they have done a fantastic job already! Looking back, consistent development work on a weekly basis was both tiring and fulfilling. To constantly think about our product and make noticeable progress over the weeks required a fair amount of passion and commitment. As a whole, I am proud of what our team achieved. Our product has a proper test suite, a comprehensive documentation (including detailed User Guide, Developer Guide and other information), as well as a reasonably well structured code base. I know there are many areas that we could continue to work on and improve further, but the product turned out more polished than I had expected. The one significant lesson that I learned from this journey is that making an great product is indeed hard and requires a tremendous amount of effort. There's no shortcut in striving towards excellence. 
+
+25/7/2021 - Yong Liang
