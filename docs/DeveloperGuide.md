@@ -6,7 +6,8 @@ title: "Developer Guide"
 
 ## **Introduction**
 
-Keen to find out how the application works? Here's all you need to know before contributing.
+Keen to find out how the application works? Here's all you need to know before
+contributing.
 
 ---
 
@@ -72,6 +73,11 @@ Keen to find out how the application works? Here's all you need to know before c
 
 ### **Layout and page design**
 
+Below is the page hierarchy and pages that currently exist in NUS connect. Most
+of our pages follow the same layout and page design with a few exceptions.
+
+![image](../static/img/page-hierarchy.png)
+
 Having a consistent layout and page design is necessary for the UX of our app
 and to maintain this, we have a few layout components that we use:
 
@@ -80,7 +86,10 @@ and to maintain this, we have a few layout components that we use:
 - Sidebar Layout
 
 These components serve to maintain the layout of our pages and make creating
-pages easy. Discussion on each layout component will be below.
+pages easy. Currently all our components support a dark mode along side the
+light mode and can be toggled with a button in the NavBar.
+
+More in-depth discussion on each layout component will be below.
 
 ### How to use these components
 
@@ -218,6 +227,17 @@ billion years of continuous generation.
 ---
 
 ### **Quiz Page**
+
+The quiz page works by checking the state of the quiz mode and will display
+varying information depending on the current state of the quiz. For each
+[quizid] there is a Question object which uses the QuizMode state. There are
+currently 4 states that a given quiz can be in. The states are as follows:
+STARTING, REVIEWING, TAKING and ENDING.
+
+The UML diagram below shows how the components of the quiz page interact with
+each other.
+
+![image](../static/img/QuizPage.png)
 
 There are essentially two pieces of data involved in the quiz functionality.
 
@@ -382,9 +402,18 @@ Extensions:
 
 ### **Forum Page**
 
-The content of forum is split into multiple components, a list of all the posts,
-the main post and the replies. There are essentially two pieces of data involved
-in the post functionality.
+The over arching structure of the forum page is done using the forum layout. The
+forum layout holds the post list and its objects which will be displayed on all
+of the URLs with a '/forum' prefix.
+
+Below is the UML structure of the forum page with all the components that are
+used in the /index and /[postid] pages.
+
+![image](../static/img/ForumPage.png)
+
+Essentially, the content of forum is split into multiple components, a list of
+all the posts, the main post and the replies. There are essentially two pieces
+of data involved in the post functionality.
 
 - A post
 - A reply
@@ -775,12 +804,12 @@ Please checkout our [workflow guide](WorkflowGuide.md)
 
 ## **Glossary**
 
-| Term     | Description                               |
-| -------- | ----------------------------------------- |
-| quiz     | a collection of questions                 |
-| question | includes question text and answer options |
-| answer   | a possible option for a question          |
-| forum    | a collection of posts by users            |
-| post     | a way of communication between users      |
-| badge    | a token of accomplishment                 |
-| EXP      | experience points gained from doing quests|
+| Term     | Description                                |
+| -------- | ------------------------------------------ |
+| quiz     | a collection of questions                  |
+| question | includes question text and answer options  |
+| answer   | a possible option for a question           |
+| forum    | a collection of posts by users             |
+| post     | a way of communication between users       |
+| badge    | a token of accomplishment                  |
+| EXP      | experience points gained from doing quests |
