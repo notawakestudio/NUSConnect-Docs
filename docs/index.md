@@ -12,7 +12,7 @@ This section is for you (evaluators, judges, advisers, and friends)!!!
 - Our product: [NUSConnect](https://nus-connect.vercel.app/)
 - [Project Log](ProjectLog)
 - [Project Poster](https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png?raw=true)
-- [Project Video](https://youtu.be/_XADzDJ645E)
+- [Project Video](https://youtu.be/lYMwwFo2hoU)
 
 To learn more about acceptance testing and how you can help give us feedback
 read [this section](TestingGuide#acceptance-test)
