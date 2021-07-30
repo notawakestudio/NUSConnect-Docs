@@ -256,12 +256,12 @@ View our [project log](ProjectLog) to see what's been done.
   - Comments not deleted together with post
   - Quest and badge errors
   - Module information not consistent
-  - Sidebar not updated on post edit
+  - Sidebar is not updated on the post edit
   - Dark mode not working properly on some pages
   - Pre-made question does not create quiz properly
-  - Server lag causing forum to fail
+  - Server lag causing the forum to fail
   - Week assignment not working properly
-  - Multiple question not working properly
+  - Multiple questions not working properly
 - General UI improvements
 - Test case and test coverage increase
 - More comprehensive documentation
