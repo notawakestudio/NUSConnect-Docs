@@ -249,3 +249,21 @@ View our [project log](ProjectLog) to see what's been done.
 - Test case and test coverage increase
 - More comprehensive documentation
 - New quiz type
+
+#### v2.3 - Bug fixing and UI reworking
+
+- Bug fixing:
+  - Comments not deleted together with post
+  - Quest and badge errors
+  - Module information not consistent
+  - Sidebar not updated on post edit
+  - Dark mode not working properly on some pages
+  - Pre-made question does not create quiz properly
+  - Server lag causing forum to fail
+  - Week assignment not working properly
+  - Multiple question not working properly
+- General UI improvements
+- Test case and test coverage increase
+- More comprehensive documentation
+- Landing page redesign
+- Logo redesign
