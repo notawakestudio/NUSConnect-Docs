@@ -8,7 +8,7 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 ## **Team Progress breakdown**
 
 | Date      | Task Description                                | Team member | hours |
-|-----------|-------------------------------------------------|-------------|-------|
+| --------- | ----------------------------------------------- | ----------- | ----- |
 | 03/5/2021 | Initial team meeting                            | YL + JX     | 3     |
 | 05/5/2021 | Learning React and NextJS                       | YL + JX     | 15    |
 | 10/5/2021 | Week 1 Sprint team meeting                      | YL + JX     | 2     |
@@ -94,6 +94,7 @@ View our [timeline](Timeline) to see what's been planned and what's ahead.
 Total hours: 396 hours
 
 Average per student:
+
 - Jun Xiong: 198 hours
 - Yong Liang: 198 hours
 
@@ -290,6 +291,25 @@ for our main release.
 
 ### Week 11
 
-Considering this the last week before submission, we took this week seriously and made a ton of updates to ensure all noticible issues are resolved. The amount of work was intense because of the changes we made to add a module context to all the interactions within the site. Also because this is the final 10%, the efforts taken to make even the slightest changes required careful attention. We are lucky enough to have a test suite running and that had major impact in speeding up the review process and ensuring that the changes made would not create regressions. I honest think that all students who persisted and reached milestone 3, they have done a fantastic job already! Looking back, consistent development work on a weekly basis was both tiring and fulfilling. To constantly think about our product and make noticeable progress over the weeks required a fair amount of passion and commitment. As a whole, I am proud of what our team achieved. Our product has a proper test suite, a comprehensive documentation (including detailed User Guide, Developer Guide and other information), as well as a reasonably well structured code base. I know there are many areas that we could continue to work on and improve further, but the product turned out more polished than I had expected. The one significant lesson that I learned from this journey is that making an great product is indeed hard and requires a tremendous amount of effort. There's no shortcut in striving towards excellence. 
+Considering this the last week before submission, we took this week seriously
+and made a ton of updates to ensure all noticible issues are resolved. The
+amount of work was intense because of the changes we made to add a module
+context to all the interactions within the site. Also because this is the final
+10%, the efforts taken to make even the slightest changes required careful
+attention. We are lucky enough to have a test suite running and that had major
+impact in speeding up the review process and ensuring that the changes made
+would not create regressions. I honest think that all students who persisted and
+reached milestone 3, they have done a fantastic job already! Looking back,
+consistent development work on a weekly basis was both tiring and fulfilling. To
+constantly think about our product and make noticeable progress over the weeks
+required a fair amount of passion and commitment. As a whole, I am proud of what
+our team achieved. Our product has a proper test suite, a comprehensive
+documentation (including detailed User Guide, Developer Guide and other
+information), as well as a reasonably well structured code base. I know there
+are many areas that we could continue to work on and improve further, but the
+product turned out more polished than I had expected. The one significant lesson
+that I learned from this journey is that making an great product is indeed hard
+and requires a tremendous amount of effort. There's no shortcut in striving
+towards excellence.
 
 25/7/2021 - Yong Liang
