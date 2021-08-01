@@ -796,6 +796,18 @@ Priorities:
 
 ---
 
+## **Future Improvements**
+
+In the future, we may consider adding these possible improvements and extensions
+to our project.
+
+- Improve data base to be more responsive to changes made
+- Allow users to select from the list of nus modules using NUSMod's API
+- More quiz types, better quiz system
+- More forum features such as a markdown editor to see changes on the spot and
+  maybe other text editors.
+- More gamification features such as mini games, live quiz systems and more
+
 ## **Developer Workflow**
 
 Please checkout our [workflow guide](WorkflowGuide.md)
