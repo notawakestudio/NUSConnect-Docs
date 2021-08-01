@@ -80,12 +80,11 @@ Read about our edge features and implementation techniques
 Read our problems and issues that we faced along the way
 [here](ProjectLog#progress-in-a-few-words)
 
+### Future Development
+
+View what we plan to do in the future [here](DeveloperGuide#future-improvements)
+
 ## **Milestone 2 (Prototyping)**
-
-### Problems encountered
-
-Read our problems and issues that we faced along the way
-[here](ProjectLog#progress-in-a-few-words)
 
 ### Core features developed
 
