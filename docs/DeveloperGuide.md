@@ -807,6 +807,7 @@ to our project.
 - More forum features such as a markdown editor to see changes on the spot and
   maybe other text editors.
 - More gamification features such as mini games, live quiz systems and more
+- Possible friends list, realtime chat features.
 
 ---
 
