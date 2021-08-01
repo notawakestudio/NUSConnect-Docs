@@ -808,6 +808,8 @@ to our project.
   maybe other text editors.
 - More gamification features such as mini games, live quiz systems and more
 
+---
+
 ## **Developer Workflow**
 
 Please checkout our [workflow guide](WorkflowGuide.md)
