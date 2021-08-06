@@ -14,7 +14,7 @@ module.exports = {
       title: 'NUS Connect',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.jpg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -47,11 +47,11 @@ module.exports = {
           items: [
             {
               label: 'Youtube',
-              href: 'https://www.youtube.com/watch?v=jXnn7Yx96TU',
+              href: 'https://www.youtube.com/watch?v=lYMwwFo2hoU',
             },
             {
               label: 'Poster',
-              href: 'https://github.com/notawakestudio/NUSConnect/blob/main/public/NotAwake.png',
+              href: 'https://github.com/notawakestudio/NUSConnect/blob/main/public/2653.png',
             },
             {
               label: 'Proposal',
@@ -81,7 +81,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/notawakestudio/NUSConnect-Docs/blob/master/',
-            routeBasePath: '/'
+          routeBasePath: '/'
         },
         blog: {
           showReadingTime: true,
